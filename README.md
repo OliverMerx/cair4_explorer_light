@@ -25,6 +25,7 @@ Mit ihr können auch eigene CAIR4-Codes entwickelt und verprobt werden.
 - **Rechtliche Referenzen, Analysen & Kapitelstruktur**
 - **ASCII-Checklisten, ASCII-Use-Case-Descriptions**
 - **Dr. Know: Legal Expert Chat** (in Vollversion)
+- **Erklärungsvideos** (in Deutsch)
 - **Prompt-basierte KI-Analyse** (OpenAI, Gemini, Mistral etc.)
 
 ---
