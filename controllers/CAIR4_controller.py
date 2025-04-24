@@ -48,7 +48,7 @@ API_KEYS = {
     "groq": os.getenv("GROQ_API_KEY", ""),
 }
 
-st.code(API_KEYS)
+
 
 def check_model_api_key(model_name: str) -> str | None:
     model_name = model_name.lower()

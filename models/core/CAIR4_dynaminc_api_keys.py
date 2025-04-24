@@ -41,7 +41,7 @@ API_KEYS = {
 # **Falls Nutzer eigene Keys gespeichert hat, überschreibe die Default-Werte**
 if "api_keys" in st.session_state:
     for key_name in API_KEYS.keys():
-        user_key = st.session_state["api_keys"].get(key_name, "")
+        user_key = st.session_state["api_keys"].get(key_name) or st.session_state["api_keys"].get(key_name.capitalize()) or st.session_state["api_keys"].get(key_name.lower()) or ""
         if user_key:
             API_KEYS[key_name] = user_key
 
