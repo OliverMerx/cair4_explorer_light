@@ -1,0 +1,16 @@
+[
+    {
+        "cot_steps": [],
+        "metrics": {
+            "total_tokens": 0,
+            "total_costs": 0.0,
+            "tokens_used_per_request": [
+                0
+            ],
+            "costs_per_request": [
+                0.0
+            ],
+            "request_names": []
+        }
+    }
+]

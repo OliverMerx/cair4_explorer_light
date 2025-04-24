@@ -1,0 +1,34 @@
+ASCII-Grafik zum Use Case "Prompting-Typen":
+
+
+╔═════════════════════════════════════════════════════════════════════╗
+║                   PROMPTING-TYPEN: KI RICHTIG FRAGEN                ║
+╠═════════════════════════════════════════════════════════════════════╣
+║    1. Rollenbasiertes Prompting ("Role Prompting")                  ║
+║    Beispiel: "Du bist ein erfahrener Arzt – erkläre mir ..."        ║
+║    Ziel: Kontext, Tonalität, Fachwissen                             ║
+║    Fehler: Keine klare Rolle → vage Antworten                       ║
+╠═════════════════════════════════════════════════════════════════════╣
+║    2. Chain-of-Thought Prompting ("Gedankengang")                   ║
+║    Beispiel: "Löse die Aufgabe Schritt für Schritt ..."             ║
+║    Ziel: Transparentes Denken & Zwischenschritte                    ║
+║    Fehler: Nur Endfrage → falsches Ergebnis                         ║
+╠═════════════════════════════════════════════════════════════════════╣
+║    3. Zielorientiertes Prompting ("Ziel, Stil, Format")             ║
+║    Beispiel: "Fasse den Text in 3 Stichpunkten zusammen"            ║
+║    Ziel: Klarer Output-Typ (Stichpunkte, Tabelle, etc.)             ║
+║    Fehler: Offene Frage → unstrukturierter Output                   ║
+╠═════════════════════════════════════════════════════════════════════╣
+║    4. Reflexions-Prompts ("Was denkst du über...?")                 ║
+║    Beispiel: "Was wäre eine bessere Lösung als ...?"                ║
+║    Ziel: Bewertung, Alternativen, Kritisches Denken                 ║
+║    Fehler: Faktenfrage statt Reflexion → kurze Antwort              ║
+╠═════════════════════════════════════════════════════════════════════╣
+║    5. Prompt-Experimente ("Systematisch testen")                    ║
+║    Beispiel: "Teste 3 Varianten und vergleiche"                     ║
+║    Ziel: Wirkung unterschiedlicher Formulierungen erkennen          ║
+║     Fehler: Nur 1 Prompt testen → kein Lerneffekt                   ║
+╠═════════════════════════════════════════════════════════════════════╣
+║   TIPP: Kombiniere mehrere Techniken für optimalen Output           ║
+║      z. B. Rolle + Ziel + Format → präzise, relevante Antwort       ║
+╚═════════════════════════════════════════════════════════════════════╝

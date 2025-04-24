@@ -1,0 +1,44 @@
+ASCII-Grafik zum Use Case "Chat mit Sessiongedächtnis":
+
+
+╔════════════════════════════════════════════════════════╗
+║        Lokale Session-Speicherung (temporär)           ║
+╚════════════════════════════════════════════════════════╝
+
+         📥 Benutzer fragt etwas
+                  │
+                  ▼
+        +-----------------------+
+        | Eingabe wird lokal    |
+        | gespeichert (z. B. in |
+        | JSON auf Disk/Server)|
+        +-----------------------+
+                  │
+                  ▼
+        +-----------------------+
+        | Verlauf (Kontext)     |
+        | wird an KI zurück-    |
+        | gespielt              |
+        +-----------------------+
+                  │
+                  ▼
+            🤖 KI antwortet
+                  │
+                  ▼
+          Benutzer fragt weiter
+                  │
+                  ▼
+       ✅ Antwort berücksichtigt Vorheriges
+                  │
+          (lokaler Verlauf ↑ bleibt erhalten)
+                  │
+        ❗ Bei App-Neustart: Verlauf ist weg, außer
+           er wird bewusst dauerhaft gespeichert.
+
+───────────────────────────────────────────────────────
+🛡️ Regulatorik:
+- Chat unterliegt Transparenzvorgaben, Art. 50 EU AI Act
+- Interaktionsdaten können personenbezogen sein (DSGVO)
+- Speicherort & Zweck müssen transparent sein
+- ⚠️ Kein automatischer Langzeitspeicher!
+───────────────────────────────────────────────────────

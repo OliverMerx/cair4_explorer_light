@@ -1,0 +1,39 @@
+ASCII-Checkup für "KI-Sytem i.S.d. EU AI Acts":
+
++---------------------------------------------------------------+
+|    ASCII-CHECKLISTE: KI-System gemäß Art. 3 Nr. 1 EU AI Act   |
++---------------------------------------------------------------+
+
+1. MASCHINENGESTÜTZTES SYSTEM?
+   - Läuft das System auf physischer Hardware (Computer, Server)?
+   - KEIN biologisches oder chemisches Substrat?
+     (Ausnahme: Nur als Teilkomponente in anderen Produkten)
+
+2. AUTONOMIE-VORHANDEN?
+   - Kann das System Entscheidungen ohne ständige menschliche Kontrolle treffen?
+   - In welchem Automatisierungsgrad operiert es? (Skala 0–6)
+
+3. ANPASSUNGSFÄHIGKEIT GEGEBEN?
+   - Entwickelt sich das System nach Inbetriebnahme weiter?
+   - Nutzt es maschinelles Lernen oder andere Lernprozesse?
+   - Kein reines regelbasiertes System?
+
+4. ZIELVERFOLGUNG?
+   - Verfolgt das System explizite (definierte) oder implizite Ziele?
+   - Kann es eigenständig neue Ziele innerhalb eines Rahmens erkennen/verfolgen?
+
+5. ABLEITUNGSFÄHIGKEIT / SCHLUSSFOLGERUNG?
+   - Kann das System auf Basis von Daten selbstständig Vorhersagen oder Entscheidungen treffen?
+   - Nutzt es logik-, wissens- oder ML-basierte Ableitungsprozesse?
+   - Auch in der Betriebsphase aktiv?
+   - Geht über rein regelbasierte Steuerung hinaus?
+
+6. UMWELTWIRKUNG?
+   - Physisch: Verändert das System reale Objekte oder greift mechanisch ein?
+   - Kognitiv: Beeinflusst das System menschliche Wahrnehmung/Verhalten?
+   - Digital: Beeinflusst es andere Systeme durch seine Ausgaben (z.B. Trigger für Softwareprozesse)?
+
++---------------------------------------------------------------+
+|  Hinweis: Diese Checkliste dient zur Prüfung, ob ein System   |
+|  unter die Definition eines KI-Systems der KI-VO fällt.       |
++---------------------------------------------------------------+

@@ -1,0 +1,36 @@
+ASCII-Checkup für "DORA (Finance)":
+
+╔════════════════════════════════════════════════════════════════════╗
+║   DIGITAL OPERATIONAL RESILIENCE ACT (DORA) - CHECKLISTE           ║
+║   Bereich: Dokumentationsanforderungen für Finanzunternehmen       ║
+╠════════════════════════════════════════════════════════════════════╣
+║ Allgemeine Orientierung                                            ║
+║ ▢ Überblick über relevante Dokumente gemäß DORA vorhanden          ║
+║ ▢ Kenntnis der DORA RTS-/ITS-Struktur nach Artikel/Kapitel         ║
+║ ▢ Verantwortlichkeiten für Dokumentation im Unternehmen geklärt    ║
+╠════════════════════════════════════════════════════════════════════╣
+║ Struktur und Inhalte der Doku                                      ║
+║ ▢ Gliederung gemäß Anforderungen (z. B. ICT-Risiko, IKT-Sicherheit)║
+║ ▢ Zuordnung zu Prozessen, Systemen und Kontrollen erfolgt          ║
+║ ▢ Korrektheit und Vollständigkeit regelmäßig überprüft             ║
+╠════════════════════════════════════════════════════════════════════╣
+║ Prozessbeschreibungen                                              ║
+║ ▢ Prozesse für Business Continuity & Incident Handling dokumentiert║
+║ ▢ Monitoring und Reaktionsketten schriftlich definiert             ║
+║ ▢ Backup-/Wiederherstellungspläne vorhanden und dokumentiert       ║
+╠════════════════════════════════════════════════════════════════════╣
+║ Drittparteien & Dienstleister                                      ║
+║ ▢ Dokumentation zu ICT-Dienstleistern und SLAs verfügbar           ║
+║ ▢ Risikoanalysen und Vertragsprüfungen dokumentiert                ║
+║ ▢ Exit-Strategien für kritische Anbieter beschrieben               ║
+╠════════════════════════════════════════════════════════════════════╣
+║ Sicherheitsmaßnahmen                                               ║
+║ ▢ IT-Sicherheitsrichtlinien schriftlich fixiert                    ║
+║ ▢ Schwachstellenmanagement-Dokumente vorhanden                     ║
+║ ▢ Regelmäßige Updates und Audits nachvollziehbar dokumentiert      ║
+╠════════════════════════════════════════════════════════════════════╣
+║ Reporting & Prüfung                                                ║
+║ ▢ Interne und externe Prüfberichte regelmäßig vorhanden            ║
+║ ▢ Meldepflichten und Incident-Reports korrekt abgelegt             ║
+║ ▢ Testberichte zu Resilience-Maßnahmen archiviert                  ║
+╚════════════════════════════════════════════════════════════════════╝

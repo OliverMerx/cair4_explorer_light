@@ -1,0 +1,151 @@
+[
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "hallo"
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ],
+        "metrics": {
+            "total_tokens": 0,
+            "total_costs": 0.0,
+            "tokens_used_per_request": [
+                0
+            ],
+            "costs_per_request": [
+                0
+            ],
+            "request_names": []
+        },
+        "session_id": "16b0b15e-1296-4b14-b4b5-073821e47823"
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "hallo"
+            },
+            {
+                "role": "assistant",
+                "content": "Hallo! Wie kann ich Ihnen heute helfen?"
+            }
+        ],
+        "metrics": {
+            "total_tokens": 11,
+            "total_costs": 0.00032999999999999994,
+            "tokens_used_per_request": [
+                11
+            ],
+            "costs_per_request": [
+                0.00032999999999999994
+            ],
+            "request_names": []
+        },
+        "session_id": "361bbf33-e33e-4fbe-967b-02ec914922df"
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "hallo"
+            },
+            {
+                "role": "assistant",
+                "content": "Hallo! Wie kann ich Ihnen heute helfen?"
+            },
+            {
+                "role": "user",
+                "content": "hallo"
+            },
+            {
+                "role": "assistant",
+                "content": "Hallo! Wie kann ich Ihnen helfen?"
+            }
+        ],
+        "metrics": {
+            "total_tokens": 21,
+            "total_costs": 0.0006299999999999999,
+            "tokens_used_per_request": [
+                11,
+                10
+            ],
+            "costs_per_request": [
+                0.00032999999999999994,
+                0.0003
+            ],
+            "request_names": []
+        },
+        "session_id": "0fab57a0-4238-4583-9573-5f638c48f495"
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "hallo"
+            },
+            {
+                "role": "assistant",
+                "content": "Hallo! Wie kann ich Ihnen heute helfen?"
+            },
+            {
+                "role": "user",
+                "content": "hallo"
+            },
+            {
+                "role": "assistant",
+                "content": "Hallo! Wie kann ich Ihnen helfen?"
+            },
+            {
+                "role": "user",
+                "content": "hallo"
+            },
+            {
+                "role": "assistant",
+                "content": "Hallo! \ud83d\ude0a Wie geht's? Kann ich dir bei etwas helfen?  \n\n(Hello! \ud83d\ude0a How are you? Can I help you with something?)  \n\nFalls du eine Frage hast oder einfach nur plaudern m\u00f6chtest, lass es mich wissen!  \n\n(If you have a question or just want to chat, let me know!)"
+            }
+        ],
+        "metrics": {
+            "total_tokens": 21,
+            "total_costs": 0.0006299999999999999,
+            "tokens_used_per_request": [
+                11,
+                10,
+                0
+            ],
+            "costs_per_request": [
+                0.00032999999999999994,
+                0.0003,
+                0
+            ],
+            "request_names": []
+        },
+        "session_id": "e9f4a712-8ec6-4225-bef3-cbb32ce480e6"
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "hallo"
+            },
+            {
+                "role": "assistant",
+                "content": "\u274c Fehler bei der Antwortgenerierung: Connection error."
+            }
+        ],
+        "metrics": {
+            "total_tokens": 0,
+            "total_costs": 0.0,
+            "tokens_used_per_request": [
+                0
+            ],
+            "costs_per_request": [
+                0.0
+            ],
+            "request_names": []
+        }
+    }
+]

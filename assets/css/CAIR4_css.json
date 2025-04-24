@@ -1,0 +1,28 @@
+{
+    "placeholder_logo":"CAIR4_placeholder_logo.png",
+    "light_theme":{
+        "sidebar_logo":"CAIR4_logo.png",
+        "stage_logo":"CAIR4_logo_light_grey.png",
+        "text_color": "#000",     
+        "background_color": "#fff",
+        "header_color":"#203864",
+        "field_color":"#f0f0f0",
+        "border_color":"#f9f9f9"
+    },
+    "dark_theme":{
+        "sidebar_logo":"CAIR4_logo_white.png",
+        "stage_logo":"CAIR4_logo.png",
+        "text_color": "#fff",     
+        "background_color": "#000",
+        "header_color":"#203864",
+        "field_color":"#f0f0f0",
+        "border_color":"#f9f9f9"
+    },
+    "button_bg_color":"#8497B0",
+    "button_txt_color":"#fff",
+    "button_hover_color":"#fff000",
+    "background_image": "/assets/images/sky-34536_1280.webp",
+    "width":"130",
+    "top":"-43",
+    "left":"0"
+}

@@ -1,0 +1,76 @@
+ASCII-Grafik zum Use Case "RAG Chunk Viewer":
+
++-----------------------------------------------------------+
+|   RAG-Chunks und Dokumente – Analyse & Visualisierung     |
++-----------------------------------------------------------+
+
+             Hochgeladene Langtexte (z. B. PDF, Webseite)
+                                │
+                                ▼
+                   Chunking: Aufteilung in Segmente
+                   ┌────────────┬────────────┬────────────┐
+                   │ Chunk #1   │ Chunk #2   │ Chunk #3   │
+                   └────────────┴────────────┴────────────┘
+                                │
+                                ▼
+                   Speicherung in Vektor-Datenbank
+                                │
+                                ▼
+       +---------------------------------------------------+
+       |                  SQLite-Datenbank                 |
+       |                                                   |
+       |   +--------------+    +------------------------+  |
+       |   | documents    |    | chunks                 |  |
+       |   |--------------|    |------------------------|  |
+       |   | ID | Text    |    | ID | Text | Doc_ID     |  |
+       |   +--------------+    +------------------------+  |
+       +---------------------------------------------------+
+
+                                │
+                                ▼
+       Nutzer: "Wie viele Dokumente enthält die DB?"
+                                │
+                                ▼
+            ➜ SQL-Query: `SELECT COUNT(*) FROM documents`
+
+                                │
+                                ▼
+     💬 Ergebnis im Chat: "Es befinden sich 7 Dokumente in der Datenbank."
+
+                                │
+                                ▼
+      Weitere Buttons: "Chunks anzeigen", "Alle Dokumente anzeigen" etc.
+
+
+RAG lässt sich zudem technisch unterschiedlich umsetzen:
+• ✳ Vektor-DBs: FAISS, ChromaDB, Weaviate, Pinecone, etc.
+• ✳ Kontext-Formate: Volltext, Chunk-Auswahl, semantisch gefiltert
+• ✳ Quellen: PDFs, Webseiten, SQL, APIs, Wissensgraphen
+• ✳ Modelle: GPT-4, Claude, Mistral, Qwen u. v. m.
+
+
++---------------------------------------------------------------+
+|         🔄 Retrieval-Augmented Generation (allgemein)         |
++---------------------------------------------------------------+
+
+            +------------------+              
+            |  Nutzer-Prompt   | <──────────────┐
+            +------------------+                │
+                      │                         │
+                      ▼                         │
+        +--------------------------+            │
+        |  Wissens-Retrieval-Modul |            │
+        |  (Datenbank, FAISS, API) |────────────┘
+        +--------------------------+
+                      │
+                      ▼
+       [ Kontextuelle Informationen ]  
+                      │
+                      ▼
+       +--------------------------------+
+       |  Sprachmodell (LLM, z. B. GPT) |
+       |  verarbeitet Prompt + Kontext  |
+       +--------------------------------+
+                      │
+                      ▼
+               🧠 Generierte Antwort

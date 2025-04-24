@@ -1,0 +1,31 @@
+ASCII-Checkup für "VERTRAUENSWÜRDIGE KI":
+
+
++--------------------------------------------------------------+
+|              PRÜFUNGSSCHEMA: VERTRAUENSWÜRDIGE KI           |
++--------------------------------------------------------------+
+| ZIEL: Sicherstellung der Rechtmäßigkeit, Ethik & Robustheit |
++-----------------------+--------------------------------------+
+| 1. GRUNDLAGEN         | 2. ANFORDERUNGEN                     |
++-----------------------+--------------------------------------+
+| - Achtung d. Autonomie| 1) Menschl. Aufsicht & Autonomie     |
+| - Schadensvermeidung  | 2) Techn. Robustheit & Sicherheit    |
+| - Fairness            | 3) Datenschutz & Datenqualität       |
+| - Erklärbarkeit       | 4) Transparenz & Nachvollziehbarkeit |
+|                       | 5) Vielfalt & Fairness               |
+|                       | 6) Soziales & ökolog. Wohlergehen    |
+|                       | 7) Rechenschaft & Nachvollziehbarkeit|
++-----------------------+--------------------------------------+
+| 3. METHODEN           | 4. EINSATZ                           |
++-----------------------+--------------------------------------+
+| - Technisch:          | - Anpassung an Anwendungskontext     |
+|   z. B. Logging, Audit| - Stakeholder einbeziehen            |
+| - Nichttechnisch:     | - Ethische Dilemmata abwägen         |
+|   z. B. Schulung      | - Dokumentation von Kompromissen     |
++-----------------------+--------------------------------------+
+| 5. BEWERTUNG          | 6. KONTINUITÄT                       |
++-----------------------+--------------------------------------+
+| - Dynamische Checkliste für jede Phase                       |
+| - Kein "Abhaken", sondern Prozess über Lebenszyklus          |
+| - Pilotierung + Feedback notwendig                           |
++-----------------------+--------------------------------------+

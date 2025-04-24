@@ -1,0 +1,63 @@
+ASCII-Checkup für "Datenschutz & KI":
+
+=========================================================
+🏛 DSK-Checkliste für Datenschutz & KI (Stand 06.11.2019)
+=========================================================
+
+[1] Lebenszyklusphasen prüfen:
+    ├── Design & Spezifikation
+    ├── Datenveredelung (z. B. Normalisierung)
+    ├── Training & Validierung
+    ├── Einsatz & Rückkopplung
+
+[2] Gewährleistungsziele für jede Phase dokumentieren:
+    ├── Transparenz
+    ├── Datenminimierung
+    ├── Nichtverkettung
+    ├── Intervenierbarkeit
+    ├── Verfügbarkeit
+    ├── Integrität
+    └── Vertraulichkeit
+
+[3] Maßnahmen im Design:
+    ├── Zweckbindung & dokumentierte Ziele
+    ├── Eingabe- & Ausgabeparameter spezifizieren
+    ├── Erklärungspflicht für gewählte KI-Verfahren
+    └── Policy zur Nachvollziehbarkeit definieren
+
+[4] Maßnahmen bei Datenveredelung:
+    ├── Herkunft & Sicherheit der Rohdaten klären
+    ├── Bias- und Diskriminierungskontrolle
+    ├── Trainingsdaten dokumentieren & anonymisieren
+    └── Veredelungsschritte spezifizieren (z. B. Fehlerbereinigung)
+
+[5] Maßnahmen beim Training:
+    ├── Train-Test-Split dokumentieren
+    ├── Güte & Fehlerraten dokumentieren
+    ├── Blackbox-Tests & Systemstabilität prüfen
+    └── Hypothesen- & Modellprüfungen durchführen
+
+[6] Einsatz & Betrieb:
+    ├── Output plausibilisieren & rückmelden
+    ├── Interventionsmechanismus implementieren
+    ├── Policy-Compliance regelmäßig prüfen
+    └── Datenminimierung im Output sicherstellen
+
+[7] Rückkopplung & Weiterlernen:
+    ├── Output-Daten anonymisieren
+    ├── Lernprozesse kontrollieren
+    └── Sicherheitsmaßnahmen auch im Echtbetrieb
+
+[8] Besondere Vorsicht bei:
+    ├── Neuronalen Netzen (mangelnde Erklärbarkeit)
+    ├── Nicht-deterministischen Systemen
+    ├── Self-Learning im Betrieb
+    └── Cloud-gestütztem Training (Zugriff Dritter?)
+
+[9] Nachweise vorbereiten:
+    ├── Dokumentation aller KI-relevanten Entscheidungen
+    ├── technische & organisatorische Maßnahmen (TOMs)
+    └── Protokolle & Logs zur Auditierung
+
+[10] Empfehlung:
+    Einbindung Datenschutz-Expert:innen ab Designphase

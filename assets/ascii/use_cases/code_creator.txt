@@ -1,0 +1,51 @@
+
+ASCII-Grafik zum Use Case "Code Creator (regelbasiert)":
+
++---------------------------------------------------------------+
+|   Nutzer wählt:                                               |
+| - Use Case Name: "mein_view"                                  |
+| - Parameter: model_name, session_file, etc.                   |
+| - Optionen: Metriken tracken? Kontext-Auswahl?                |
++---------------------------------------------------------------+
+                            │
+                            ▼
+📏 Regelbasierter Generator erstellt Code-Template
+   - kein KI-Modell beteiligt
+   - Logik folgt fester Struktur & Platzhaltern
+                            │
+                            ▼
+🧱 View-Code wird zusammengesetzt:
+   def render_mein_view(...):
+       st.title("Mein View")
+       ...
+                            │
+                            ▼
+🧾 Passender Config-Eintrag wird mitgeneriert:
+   {
+     "mein_view": {
+         "view": "views.mein_view.render_mein_view",
+         ...
+     }
+   }
+                            │
+                            ▼
+📄 Code & Config erscheinen direkt im Streamlit-Editor
+   → können kopiert oder angepasst werden
+                            │
+                            ▼
++---------------------------------------------------------------+
+|    Ergebnis: Vordefinierter Python-Code ohne KI-Beteiligung   |
+|         → deterministisch, erklärbar, regelbasiert            |
++---------------------------------------------------------------+
+
++--------------------------+-------------------------+-------------------------+
+|                          | Regelbasiertes Coding   | KI-basiertes Coding     |
++--------------------------+-------------------------+-------------------------+
+|    Zielgruppe            | Technisch orientiert    | Auch für Laien geeignet |
+|    Reproduzierbarkeit    | 100 % identisch         | leicht variabel         |
+|    Intelligenzanteil     | Keine KI (Determinismus)| Generative KI (LLM)     |
+|    Erklärbarkeit         | Sehr hoch               | Abhängig vom Prompt     |
+|    AI-Act Relevanz       | Kein KI-System          | KI-System gem. Art. 3   |
+|    Anpassung             | Manuell (Parameter)     | Sprachgesteuert         |
+|    Validierbarkeit       | Regeltestbar            | Prüfpflichtig           |
++--------------------------+-------------------------+-------------------------+

@@ -1,0 +1,64 @@
+ASCII-Grafik zum Use Case "Retrieval augmented Generation":
+
++--------------------------------------------------------+
+|             📄 Retrieval-Augmented Generation          |
+|            Use Case: PDF + Frage + Antwort            |
++--------------------------------------------------------+
+         |
+         ▼
+  [PDF Upload durch User]  
+         |
+         ▼
+[Text aus PDF wird extrahiert]
+         |
+         ▼
+[Text in Chunks zerlegt (z. B. 500 Zeichen)]
+         |
+         ▼
+[Chunks werden in Vektordatenbank gespeichert]
+         |
+         ▼
+[Nutzer stellt eine Frage an das Modell]
+         |
+         ▼
+[Ähnlichste Chunks werden per Vektor-Suche gefunden]
+         |
+         ▼
+[Diese Chunks werden als Kontext ins Prompt eingebettet]
+         |
+         ▼
+🧠 KI gibt Antwort – unter Berücksichtigung des Dokuments
+
+
+Hinweis: RAG lässt sich technisch sehr unterschiedlich umsetzen:
+• ✳ Vektor-DBs: FAISS, ChromaDB, Weaviate, Pinecone, etc.
+• ✳ Kontext-Formate: Volltext, Chunk-Auswahl, semantisch gefiltert
+• ✳ Quellen: PDFs, Webseiten, SQL, APIs, Wissensgraphen
+• ✳ Modelle: GPT-4, Claude, Mistral, Qwen u. v. m.
+
+
++---------------------------------------------------------------+
+|         🔄 Retrieval-Augmented Generation (allgemein)         |
++---------------------------------------------------------------+
+
+            +------------------+              
+            |  Nutzer-Prompt   | <──────────────┐
+            +------------------+                │
+                      │                         │
+                      ▼                         │
+        +--------------------------+            │
+        |  Wissens-Retrieval-Modul |            │
+        |  (Datenbank, FAISS, API) |────────────┘
+        +--------------------------+
+                      │
+                      ▼
+       [ Kontextuelle Informationen ]  
+                      │
+                      ▼
+       +--------------------------------+
+       |  Sprachmodell (LLM, z. B. GPT) |
+       |  verarbeitet Prompt + Kontext  |
+       +--------------------------------+
+                      │
+                      ▼
+               🧠 Generierte Antwort

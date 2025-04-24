@@ -1,0 +1,46 @@
+
+ASCII-Grafik zum Use Case "Code Validator":
+
++--------------------------------------------------------------+
+|    Nutzer gibt Python-Code ein                               |
+|    def check(x): if x == 1: print("Yes")                     |
++--------------------------------------------------------------+
+                             │
+                             ▼
+🔍 1. **Tokenizer & Parser erkennen die Code-Struktur**       
+   - Identifikation von Funktionen, Blöcken, Imports
+   - Aufbau eines internen Syntaxbaums (AST-ähnlich)
+                             │
+                             ▼
+⚙️ 2. **Regelbasierte Prüfungen** (syntaktisch & semantisch)  
+   - Fehlende Rückgabewerte, Dead Code, Schattenvariablen
+   - gefährliche Imports: `os`, `eval`, `subprocess` etc.
+   - Type Mismatch, z. B. `x + "abc"` → int + str
+                             │
+                             ▼
+🧠 3. **Modellinterne Wissensabfrage (Zero-/Few-Shot Patterns)**   
+   - „Typischer Fehler bei dieser Library…“
+   - „Diese Signatur erinnert an XSS-Schwachstelle…“
+   - „Das ist ein bekannter anti-pattern bei pandas“
+                             │
+                             ▼
+📐 4. **Kontextuelles Reasoning (prompt-gesteuert)**            
+   → Prüfung je nach Nutzerwahl:
+   - 🔐 *Security*: Injection-Vektoren, Zugriffsschutz
+   - 🐞 *Bug Detection*: Kontrollfluss, uninitialisierte Variablen
+   - 🛠️ *Optimierung*: schlechter Stil, Redundanz, Performance
+                             │
+                             ▼
+🧪 5. **Simulative Pfadanalyse** *(keine Ausführung!)*         
+   - „Was passiert bei `x=None`?“
+   - „Gibt es Zweige ohne Wirkung?“
+                             │
+                             ▼
+🧾 6. **Antwort: Bullet-Points mit Fundstellen & Empfehlungen**  
+   - klare Benennung der Problematik
+   - ggf. Codeverbesserung oder Refactoring-Vorschlag
+                             │
+                             ▼
++--------------------------------------------------------------+
+| 💬 Antwort im Chat: Kompakt, aber auf Wunsch tiefgreifend    |
++--------------------------------------------------------------+

@@ -1,0 +1,42 @@
+ASCII-Grafik zum Use Case "Search Augmented Response (Multimodell":
+
++--------------------------------------------------------------------------+
+|    Nutzer gibt eine Frage ein                                            |
+| z. B. "Was hat die EU gestern zur KI-Verordnung gesagt?"                 |
++--------------------------------------------------------------------------+
+                                   │
+                                   ▼
+         🔍 Suche wird per DDGS-Python-Modul an DuckDuckGo gesendet
+                                   │
+                                   ▼
++--------------------------------------------------------------------------+
+|    Relevante Ergebnisse (Titel, Textauszug, Link)                        |
+| werden gesammelt – KEIN Agent, KEIN Tool-Call durch das LLM              |
++--------------------------------------------------------------------------+
+                                   │
+                                   ▼
+ 🧠 Beliebiges Sprachmodell (z. B. GPT-4o, Claude, Llama) erhält:
+     - Originalfrage
+     - Zusammengefassten Web-Kontext
+                                   │
+                                   ▼
++--------------------------------------------------------------------------+
+|    Antwort basiert vollständig auf externem Kontext                      |
+|  Kein Zugriff auf Suchtool durch das Modell selbst                       |
++--------------------------------------------------------------------------+
+
+📌 Besonderheit: Diese Variante funktioniert mit **jedem LLM**, 
+da der Suchprozess **vorgelagert und manuell eingebettet** wird.
+
+Vergleichende Übersicht der SER-Varianten:
+
++--------------------------------------------------------------------------------------------------------------------+
+| Variante                     | Kontextbereitstellung        | Tool-Anbindung   | Besonderheit                      |
+|------------------------------|------------------------------|------------------|-----------------------------------|
+| 1. GPT-4o + Bing-API         | Direkt durch Modell (API)    | Integriert       | Nur mit OpenAI-API                |
+| 2. GPT-4o + LangChain Agent. | Tool-Call via ReAct Agent    | Autonom (Agent)  | Agent entscheidet Tool-Einsatz    |
+| 3. Beliebiges LLM + DDGS     | Manuell per Python-Logik     | Extern (ddg)     | Modell-unabhängig & kontrolliert  |
++--------------------------------------------------------------------------------------------------------------------+
+
+Variante 3 kann mit **jedem beliebigen Sprachmodell** (z. B. GPT, Claude, Mistral, Llama) kombiniert werden –  
+da der Web-Kontext unabhängig erstellt und manuell in den Prompt eingebettet wird.

@@ -1,0 +1,50 @@
+ASCII-Checkup für "KI & Compliance ohne KI-VO":
+
++====================================================================+
+|         ASCII-CHECKLISTE: KI-Compliance ohne KI-VO                 |
++====================================================================+
+
+[1] 📥 DATENBESCHAFFUNG & ENTWICKLUNG
+    - ❑ Wurden Daten rechtmäßig beschafft? (DSGVO, DGA, DA)
+    - ❑ Sind Lizenzen/Rechte für Trainingsdaten eindeutig geklärt? (UrhG)
+    - ❑ Sind Drittlandtransfers geprüft? (DSGVO, TOM, DSFA)
+    - ❑ Gibt es Bias-Checks & AGG-Compliance?
+
+[2] 🧠 ALGORITHMUSENTWICKLUNG
+    - ❑ Sind die genutzten Modelle dokumentiert & versioniert?
+    - ❑ Ist das Algorithmusdesign nachvollziehbar & überprüfbar?
+    - ❑ Wurden CRA-relevante Sicherheitschecks integriert?
+
+[3] 🛠️ IMPLEMENTIERUNG & INBETRIEBNAHME
+    - ❑ Wurden Datenschutz-Folgenabschätzungen (DSFA) erstellt?
+    - ❑ Ist der Betriebsrat bei MA-Daten eingebunden? (BetrVG)
+    - ❑ Gibt es ein Verfahren zur Modell-Validierung vor Echtbetrieb?
+
+[4] ⚙️ TECHNISCHER BETRIEB
+    - ❑ Sind Sicherheitsarchitekturen & Patchkonzepte implementiert? (CRA)
+    - ❑ Ist die Nachvollziehbarkeit der Ergebnisse gegeben? (DMA, DSA)
+    - ❑ Wird kontinuierlich auf Bias überprüft?
+
+[5] 🔄 UPDATE & OPTIMIERUNG
+    - ❑ Gibt es ein Protokoll für Modell-Updates? (PLD-Haftung)
+    - ❑ Sind Bias-Audits & Prozessanpassungen regelmäßig geplant?
+    - ❑ Wird die Rechtmäßigkeit bei jedem neuen Lernprozess erneut geprüft?
+
+[6] 📝 LIZENZEN & RECHTSGRUNDLAGEN
+    - ❑ Existieren aktuelle Lizenzvereinbarungen für Trainings-/Nutzdaten?
+    - ❑ Wurde die rechtliche Zweckbindung dokumentiert? (DSGVO, UrhG)
+    - ❑ Sind Einschränkungen aus dem TDM-Schrankenrecht beachtet?
+
+[7] 🤝 VERTRÄGE & PARTNERDATEN
+    - ❑ Sind Datenzugangs- & Nutzungsrechte vertraglich geregelt? (DA, DGA)
+    - ❑ Ist der Umgang mit Geschäftsgeheimnissen definiert?
+    - ❑ Sind Vertragslaufzeiten, Portabilität & Löschung dokumentiert?
+
+[8] 📣 NACHWEIS & TRANSPARENZ
+    - ❑ Gibt es eine nachvollziehbare Übersicht zu Datenquellen & Modellen?
+    - ❑ Werden Nutzerrechte gewahrt (Löschung, Auskunft, Portabilität)?
+    - ❑ Ist eine Reaktion auf Beschwerden oder Aufsichtsmaßnahmen vorbereitet?
+
++====================================================================+
+|   Quelle: AIOFFICER.DE / „KI-Compliance ohne KI-Verordnung“        |
++====================================================================+

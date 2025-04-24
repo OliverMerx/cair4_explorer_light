@@ -1,0 +1,47 @@
+ASCII-Checkup für "Grenzfälle für KI-Sytem i.S.d. EU AI Acts":
+
+============================================================
+🧠 ASCII-CHECKLISTE – KI-System ja oder nein? (Art. 3 Nr. 1 EU AI Act)
+============================================================
+
+1. 📌 MASCHINELLE LERNVERFAHREN
+------------------------------------------------------------
+| Typ                      | Funktionsweise                    | KI-System? | Begründung                        |
+|--------------------------|-----------------------------------|------------|------------------------------------|
+| Überwachtes Lernen       | Lernt aus gelabelten Daten        |   JA       | Mustererkennung & Generalisierung |
+| Unüberwachtes Lernen     | Erkennt Muster ohne Labels        |   JA       | Eigenständige Clusterbildung       |
+| Selbstüberwachtes Lernen | Erstellt eigene Lernziele         |   JA       | Autonome Zieldefinition möglich    |
+| Verstärkungslernen       | Lernt durch Feedback (Belohnung)  |   JA       | Lernstrategie durch Erfahrung      |
+| Deep Learning            | Tiefe neuronale Netze             |   JA       | Nichtlinear, Datenbasiert          |
+
+2. 📘 NICHT-MASCHINELLE KI-VERFAHREN
+------------------------------------------------------------
+| Typ                      | Funktionsweise                    | KI-System? | Begründung                        |
+|--------------------------|-----------------------------------|------------|------------------------------------|
+| Logik-/Wissenssysteme    | Regeln, Ontologien, Schlussfolger.|   JA       | Ableitung aus kodiertem Wissen     |
+| Strukturierte Verfahren  | Matching, Chaining, Sorting       |   JA       | Adaptive Ableitungen, Suche        |
+
+3. 🚫 KEINE KI-SYSTEME (i.S.d. KI-VO)
+------------------------------------------------------------
+| Typ                      | Funktionsweise                    | KI-System? | Begründung                        |
+|--------------------------|-----------------------------------|------------|------------------------------------|
+| Mathem. Optimierung      | Näherung etablierter Verfahren    |   NEIN     | Kein Lernen/keine Inferenz         |
+| Datenverarbeitung        | Sortieren, Filtern, Berechnen     |   NEIN     | Deterministische Routinen          |
+| Statistik/Visualisierung | T-Test, Mittelwerte, Korrelation  |   NEIN     | Keine Lernprozesse                 |
+| Heuristiken              | Vordefinierte Lösungsstrategien   |   NEIN     | Kein datengetriebenes Verhalten    |
+| Einfache Prognosen       | Lineare/quadratische Regress.     |   NEIN     | Keine nichtlineare Generalisierung |
+
+4. 🧪 PRÜFFRAGE: ABLEITUNGSFÄHIGKEIT VORHANDEN?
+------------------------------------------------------------
+✅ Erkennt das System eigenständig Muster aus Daten?
+✅ Nutzt es nichtlineare oder hochdimensionale Verfahren?
+✅ Kann es Schlussfolgerungen ziehen, die nicht explizit programmiert wurden?
+
+→ Wenn mindestens eine dieser Fragen mit JA beantwortet wird:
+   ➤ Hohes Potenzial, dass es sich um ein KI-System i.S.d. Art. 3 Nr. 1 KI-VO handelt.
+
+------------------------------------------------------------
+Hinweis:
+- Deep Learning ≠ eigenes Paradigma, sondern Architektur (tritt in allen Lernformen auf)
+- KI-VO fokussiert auf „Inference“ als zentrales Kriterium
+- Kein KI-System = keine automatische Einstufung als unkritisch!

@@ -1,0 +1,41 @@
+
+ASCII-Grafik zum Use Case "Code Generator (KI-basiert)":
+
++------------------------------------------------------------+
+| Nutzer gibt eine textuelle Anweisung ein                |
+| z. B. "Schreibe ein Tic-Tac-Toe-Spiel in Python."         |
++------------------------------------------------------------+
+                           │
+                           ▼
+🧠 KI-Modell (z. B. GPT-4o) analysiert die Beschreibung
+   - Sprachverständnis
+   - Code-Semantik
+   - mögliche Bibliotheken
+                           │
+                           ▼
+🛠️ KI erzeugt eigenständig Python-Code
+   - Struktur & Syntax werden „on the fly“ gebaut
+   - Lösung kann bei gleicher Eingabe variieren
+                           │
+                           ▼
+🧾 Code erscheint im Editor
+   - Nutzer kann ihn testen, anpassen, weiterverarbeiten
+                           │
+                           ▼
++------------------------------------------------------------+
+|    Ergebnis: KI-generierter, kreativer Python-Code         |
+|     → nicht deterministisch, sondern probabilistisch       |
++------------------------------------------------------------+
+
+
++--------------------------+-------------------------+-------------------------+
+|                          | Regelbasiertes Coding   | KI-basiertes Coding     |
++--------------------------+-------------------------+-------------------------+
+|    Zielgruppe            | Technisch orientiert    | Auch für Laien geeignet |
+|    Reproduzierbarkeit    | 100 % identisch         | leicht variabel         |
+|    Intelligenzanteil     | Keine KI (Determinismus)| Generative KI (LLM)     |
+|    Erklärbarkeit         | Sehr hoch               | Abhängig vom Prompt     |
+|    AI-Act Relevanz       | Kein KI-System          | KI-System gem. Art. 3   |
+|    Anpassung             | Manuell (Parameter)     | Sprachgesteuert         |
+|    Validierbarkeit       | Regeltestbar            | Prüfpflichtig           |
++--------------------------+-------------------------+-------------------------+

@@ -1,0 +1,35 @@
+ASCII-Grafik zum Use Case "Checklist-Generation":
+
++--------------------------------------------------------------+
+| 📄 Eingabe: Unstrukturierter Text (z. B. Bericht, Anweisung) |
++--------------------------------------------------------------+
+                             │
+                             ▼
+         🔍 Analysephase – Ziel: Bedeutung & Struktur erkennen
+                             │
+                             ▼
+      🧠 KI-Modell erkennt semantische Muster im Fließtext:
+      
+         - Instruktionen           → Action Items
+         - Regulatorische Hinweise → Compliance Steps
+         - Kontrollanforderungen   → Audit Tasks
+                             │
+                             ▼
+┌────────────────────────────────────────────────────────────┐
+│         Transformation in strukturierte Listenform         │
+├────────────────────────────────────────────────────────────┤
+│  Action Items:                                             │
+│     - Informiere alle Mitarbeitenden über ...              │
+│     - Bereite die Systemumstellung vor ...                 │
+│                                                            │
+│  Compliance Steps:                                         │
+│     - Beachte §13 DSGVO bei Datenerfassung                 │
+│     - Sichere Audit-Trails für min. 6 Monate               │
+│                                                            │
+│  Audit Tasks:                                              │
+│     - Prüfe Konformität mit ISO 27001                      │
+│     - Dokumentiere Backup-Zyklen                           │
+└────────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+       ✅ Output: Strukturierter, durchsuchbarer und überprüfbarer Plan

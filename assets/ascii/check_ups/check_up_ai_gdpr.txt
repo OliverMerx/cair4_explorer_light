@@ -1,0 +1,52 @@
+ASCII-Checkup für "KI & DATENSCHUTZKONFORMITÄT":
+
++-------------------------------------------------------------+
+|     CHECKLISTE: KI & DATENSCHUTZKONFORMITÄT (DSGVO)       |
++-------------------------------------------------------------+
+| ☐ VVT vorhanden? Zweck der KI-Anwendung klar definiert?     |
+| ☐ Personenbezug der Trainings- oder Eingabedaten geprüft?   |
+| ☐ Rechtliche Grundlage vorhanden (Art. 6 / 9 DSGVO)?       |
+| ☐ DSFA notwendig? → Schwellwertanalyse/Heuristik prüfen     |
+| ☐ Informationspflichten (Art. 13/14 DSGVO) eingehalten?    |
+| ☐ Betroffenenrechte (Auskunft, Löschung, Widerspruch)?      |
+| ☐ AV-Vertrag mit KI-Dienstleister abgeschlossen?            |
+| ☐ Drittlandtransfer geprüft (EU-US Framework, SCCs)?        |
+| ☐ Risiken: Bias, Diskriminierung, Zweckdehnung adressiert?  |
+| ☐ Protokollierung & Transparenzmaßnahmen eingerichtet?      |
++-------------------------------------------------------------+
+
+START
+  │
+  ├─► Nutzt das Projekt KI-System(e)?
+  │     └─► NEIN → DSGVO normal prüfen → ENDE
+  │     └─► JA
+  │
+  ├─► Personenbezogene Daten beteiligt?
+  │     └─► NEIN → DSGVO nicht anwendbar → ENDE
+  │     └─► JA
+  │
+  ├─► Einsatzszenario:
+  │     ├─► KI selbst trainiert?
+  │     ├─► KI-as-a-Service?
+  │     └─► Dritter stellt KI-Modell bereit?
+  │
+  ├─► Rechtliche Basis prüfen:
+  │     ├─► Normale Daten → Art. 6 Abs. 1 lit. f?
+  │     ├─► Besondere Daten → Art. 9 Ausnahmen?
+  │     └─► DSFA notwendig?
+  │
+  ├─► DSFA-Schwellwertanalyse:
+  │     ├─► Blacklist? Heuristik? DSK Muss-Liste?
+  │     └─► Mind. 2 Kriterien? → DSFA durchführen
+  │
+  ├─► Weitere Pflichten:
+  │     ├─► Informationspflichten (Art. 13/14)?
+  │     ├─► Betroffenenrechte technisch umsetzbar?
+  │     └─► Datenlöschung / Nachtraining möglich?
+  │
+  ├─► Besonderheiten prüfen:
+  │     ├─► Bias / Diskriminierung?
+  │     ├─► Drittlandtransfer?
+  │     └─► Protokollierung eingerichtet?
+  │
+  └─► Dokumentation & Rechenschaft sichern → ENDE

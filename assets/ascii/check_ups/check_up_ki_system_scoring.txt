@@ -1,0 +1,36 @@
+ASCII-Checkup für "KI-Sytem-Bewertung mit Scoringempfehlung der EU":
+
+╔════════════════════════════════════════════════════════════╗
+║        CHECKLISTE: Definition eines KI-Systems (AI Act)    ║
+╚════════════════════════════════════════════════════════════╝
+
+[ ] 1. Maschinenbasiertes System
+    └─ Nutzt Hard- und Software zur Datenverarbeitung und Entscheidungsfindung?
+
+[ ] 2. Autonomie
+    └─ Kann das System Aufgaben mit einem gewissen Maß an Unabhängigkeit durchführen?
+
+[ ] 3. Adaptivität
+    └─ Zeigt das System nach der Inbetriebnahme Lernverhalten oder passt sich an?
+
+[ ] 4. Zielorientierung
+    └─ Verfolgt das System explizite oder implizite Ziele zur Erfüllung von Aufgaben?
+
+[ ] 5. Inferenz (Schlussfolgerung auf Basis von Input)
+    └─ Kann das System aus Daten ableiten, wie Ausgaben zu generieren sind?
+
+[ ] 6. Generierung von Ausgaben
+    └─ Liefert das System Ausgaben wie Vorhersagen, Empfehlungen, Inhalte oder Entscheidungen?
+
+[ ] 7. Einfluss auf Umgebung
+    └─ Haben die generierten Ausgaben Einfluss auf physische oder virtuelle Umgebungen?
+
+╔════════════════════════════════════════════════════════════╗
+║        Bewertung                                           ║
+╚════════════════════════════════════════════════════════════╝
+
+[ ] Wenn mindestens Punkte 1, 2, 5 und 6 erfüllt sind → sehr wahrscheinlich ein KI-System im Sinne des AI Acts.
+
+[ ] Punkt 3 (Adaptivität) ist fakultativ → nicht zwingend notwendig für KI-Klassifikation.
+
+[ ] Punkt 7 (Einfluss) ist wichtig für die Einstufung als High Risk.

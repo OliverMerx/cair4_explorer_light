@@ -1,0 +1,41 @@
+ASCII-Grafik zum Use Case "Retrieval Augmented Classification (RAC mit Scraping)":
+
++--------------------------------------------------------------+
+|    Start: EU AI Act Begründungen (1–183) automatisch laden   |
+|    → Crawling der Ziffernseiten (HTML) via BeautifulSoup     |
++--------------------------------------------------------------+
+                           │
+                           ▼
++--------------------------------------------------------------+
+|    HTML-Text extrahieren & bereinigen (Absätze, Header)      |
+|    → Speicherung in strukturierter DataFrame-Form            |
++--------------------------------------------------------------+
+                           │
+                           ▼
++--------------------------------------------------------------+
+|   Embedding: Jeder Begründungstext wird vektorisiert         |
+|    → Modell: `all-MiniLM-L6-v2`                              |
++--------------------------------------------------------------+
+                           │
+                           ▼
++--------------------------------------------------------------+
+|   Retrieval-Augmented Classification (RAC):                  |
+|    Nutzerfrage → Vektorvergleich mit Begründungen            |
+|    → Cosine Similarity zur Relevanzbewertung                 |
++--------------------------------------------------------------+
+                           │
+                           ▼
++--------------------------------------------------------------+
+|    PCA-Visualisierung der Begründungen im semantischen Raum  |
+|    → Themencluster und Verteilungen werden sichtbar          |
++--------------------------------------------------------------+
+                           │
+                           ▼
++--------------------------------------------------------------+
+|   Ergebnis: Top-N Begründungen mit Ähnlichkeits-Scores       |
+|    → inkl. Direktlink zur Quelle & Vorschautext              |
++--------------------------------------------------------------+
+
+🧩 RAC erklärt:
+Statt feste Kategorien zu vergeben, wird semantisch bewertet,  
+welche vorhandenen Texte (Begründungen) am besten zur Frage passen.

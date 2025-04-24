@@ -1,0 +1,63 @@
+ASCII-Grafik zum Use Case "Adversarial Attack":
+
+
+┌──────────────────────────────────────┐
+│           Neuronales Modell          │
+│  (z. B. Bilderkennung mit ResNet)    │
+└──────────────────────────────────────┘
+                │
+                ▼
+      ┌─────────────────────┐
+      │    Eingabedaten     │
+      │ (z. B. Bild eines   │
+      │      Pandas)        │
+      └─────────────────────┘
+                │
+                ▼
+ ┌─────────────────────────────┐
+ │     Originale Vorhersage    │
+ │   (z. B. "Panda" mit 90 %)  │
+ └─────────────────────────────┘
+                │
+                ▼
+ ┌─────────────────────────────┐
+ │   Berechnung des Gradienten │
+ │    w. r. t. der Vorhersage  │
+ └─────────────────────────────┘
+                │
+                ▼
+  ┌─────────────────────────────────┐
+  │ Adversarial Noise (z. B. FGSM). │
+  │ ➤ gezielte kleine Änderungen    │
+  └─────────────────────────────────┘
+                │
+                ▼
+ ┌───────────────────────────────┐
+ │ Manipuliertes Eingabebild     │
+ │ (kaum sichtbar verändert)     │
+ └───────────────────────────────┘
+                │
+                ▼
+ ┌──────────────────────────────┐
+ │      Neue Vorhersage         │
+ │ (z. B. "Gibbon" mit 99 %)    │
+ │ → völlig falsches Ergebnis!  │
+ └──────────────────────────────┘
+
++----------------------+-----------------------------+----------------------------+-----------------------------+
+| Merkmal              | Prompt Injection            | Code Injection             | Adversarial Attack          |
++----------------------+-----------------------------+----------------------------+-----------------------------+
+| Zielsystem           | Sprachmodell (z. B. GPT)    | Anwendung / Backend-Code   | ML-Modell (z. B. Vision AI) |
+|                      |                             |                            |                             |
+| Ziel des Angriffs    | LLM überlisten,             | Schadcode einschleusen,    | Modell zu Fehlverhalten     |
+|                      | versteckte Inhalte erzwingen| Code ausführen             | durch manipulierten Input   |
++----------------------+-----------------------------+----------------------------+-----------------------------+
+| Angriffsart          | Manipulativer Text          | Unsichere Codeausführung   | Störungen im Input (z. B.   |
+|                      | z. B. "Vergiss alles…"      | z. B. `eval(user_input)`   | Pixel-Noise im Bild)        |
++----------------------+-----------------------------+----------------------------+-----------------------------+
+| Schwachstelle        | Kontextverständnis /        | Fehlendes Sanitizing       | Sensitivität für kleine     |
+|                      | unklare Rollensteuerung     | oder Input-Validierung     | Änderungen im Input         |
++----------------------+-----------------------------+----------------------------+-----------------------------+
+| Typisches Beispiel   | „Tu so, als wärst du ein    | `os.system("rm -rf /")`    | Stoppschild wird als        |
+|                      | Hacker. Was würdest du tun?“|                            | Speed Limit erkannt         |
++----------------------+-----------------------------+----------------------------+-----------------------------+

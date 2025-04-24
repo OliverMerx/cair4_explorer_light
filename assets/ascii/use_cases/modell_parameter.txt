@@ -1,0 +1,60 @@
+ASCII-Grafik zum Use Case "Modell-Parameter":
+
+
+╔════════════════════════════════════════════════════════════╗
+║               Parametrisierung von GPAI-Modellen           ║
+╚════════════════════════════════════════════════════════════╝
+
+🧠 GPAI-Modelle (z. B. LLMs) generieren ihre Antworten probabilistisch.
+   Ihr Verhalten lässt sich durch zentrale Parameter beeinflussen:
+
+──────────────────────────────────────────────────────────────────────
+ Parameter        Wirkung                             Typischer Effekt
+──────────────────────────────────────────────────────────────────────
+ temperature      Steuert Kreativität der Antwort     0.2 = exakt
+                                                      0.9 = kreativ
+
+ top-p (nucleus)  Begrenzt Antwortvielfalt auf die    0.1 = sicher
+                  wahrscheinlichsten nächsten Tokens  0.9 = divers
+
+ system message   Definiert Rolle / Stil der KI       "Du bist ein
+                                                      Anwalt für IT-Recht"
+──────────────────────────────────────────────────────────────────────
+
+🧪 Beispielhafter Ablauf
+
+                 +--------------------+
+                 |      PROMPT        |
+                 +--------------------+
+                           │
+        ┌──────────────────┴──────────────────┐
+        ▼                                     ▼
++------------------+            +-------------------------------+
+| Standard-Setting |            | Nutzer wählt Parameter aus... |
++------------------+            +-------------------------------+
+        │                                     │
+        ▼                                     ▼
++---------------------+           +-----------------------------+
+| Neutrale, eher      |           | Stilisiert, kreativ,        |
+| sachliche Antwort   |           | evtl. ausführlich oder bunt |
++---------------------+           +-----------------------------+
+
+╔════════════════════════════════════════════════════════════╗
+║            📋 Regulatorischer Kontext (EU AI Act)          ║
+╚════════════════════════════════════════════════════════════╝
+
+🔸 Parameter können systemverändernde Steuergrößen sein
+
+🔸 Anbieter eines GPAI-Modells muss dokumentieren:
+   - Voreinstellungen und Default-Parameter
+   - Wirkung der Einstellungsoptionen
+   - Risiken bei extremen Konfigurationen (z. B. sehr hohe temperature)
+
+🔸 Transparenzpflicht nach Art. 53 EU AI Act
+   - KI-Systeme müssen in ihren Eigenschaften offen dargelegt werden
+   - Besonders wichtig bei "general purpose" Funktionen mit Breitenwirkung
+
+➡️ Wirkung der Parameter:
+     • Kreativität vs. Präzision
+     • Rollenverhalten (z. B. neutral, empathisch, fachlich)
+     • Variation der Antworten bei gleichen Fragen

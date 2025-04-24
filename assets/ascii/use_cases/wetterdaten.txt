@@ -1,0 +1,38 @@
+ASCII-Grafik zum Use Case "Crawler und Visualisierung für Wetterdaten":
+
++------------------------------------------------------------+
+|    Nutzer wählt Zeitraum ab Jan 2007 für Wetterdaten aus   |
++------------------------------------------------------------+
+                          │
+                          ▼
+🌐 Zugriff auf rosenheimwetter.de → monatliches HTML-Crawling
+                          │
+                          ▼
+📄 Extraktion und Bereinigung der Wettertabellen (Tag, Werte etc.)
+                          │
+                          ▼
+🗃️ Speicherung strukturierter Wetterdaten (CSV / DataFrame)
+                          │
+                          ▼
++------------------------------------------------------------+
+|  Auswahl: Welche Kennzahl soll analysiert / prognostiziert |
+|    werden? (z.B. Temperatur, Luftdruck, Windstärke)        |
++------------------------------------------------------------+
+                          │
+                          ▼
+🔮 Prophet-Modell trainiert auf Zeitreihe der gewählten Kennzahl
+                          │
+                          ▼
+📈 Prognose mit Unsicherheitsband (yhat, yhat_lower, yhat_upper)
+                          │
+                          ▼
++------------------------------------------------------------+
+|  Integration in ATCF-Pipe (Advanced Trust & Compliance)    |
+|  → Für regulatorische Nutzung, z. B. Langzeitklima-Reports |
++------------------------------------------------------------+
+                          │
+                          ▼
+📊 Visualisierungen: 
+- Liniendiagramme
+- Monats- & Jahresdurchschnitte
+- Boxplots nach Monaten

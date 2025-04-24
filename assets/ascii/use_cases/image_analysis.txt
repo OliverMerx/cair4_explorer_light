@@ -1,0 +1,58 @@
+ASCII-Grafik zum Use Case "Bildanalyse":
+
+
+===========================================================================
+                       BILDANALYSE DURCH MULTIMODALE KI
+===========================================================================
+
+                     [ Nutzer lädt Bild hoch ]
+                                 │
+                                 ▼
+                    ┌──────────────────────────────┐
+                    │  KI-Modell verarbeitet Bild  │
+                    │  (Text, Objekte, Muster...)  │
+                    └──────────────────────────────┘
+                                 │
+                                 ▼
+                ┌────────────────────────────────────┐
+                │ Analyseergebnisse:                 │
+                │ • Objekt-Erkennung                 │
+                │ • Text im Bild (OCR)               │
+                │ • visuelle Merkmale (z.B. Farben)  │
+                │ • ggf. Emotionen / Situationen     │
+                └────────────────────────────────────┘
+                                 │
+                                 ▼
+              ┌────────────────────────────────────────┐
+              │ Interpretation durch GPAI-Modell       │
+              │ ggf. basierend auf Trainingsdaten      │
+              └────────────────────────────────────────┘
+                                 │
+                                 ▼
+       ┌────────────────────────────────────────────────────────────┐
+       │ Ähnlichkeit zu OCR:                                        │
+       │ • Texterkennung (OCR) = Spezialfall visueller KI           │
+       │ • OCR meist regelbasiert, Bildanalyse meist KI-gestützt    │
+       │ • Kombination möglich: z. B. Belegprüfung + Logo-Scan      │
+       └────────────────────────────────────────────────────────────┘
+
+
+===========================================================================
+                     REGULATORISCHE BEWERTUNG UND RISIKEN
+===========================================================================
+
+• Persönlichkeitsrecht (Recht am eigenen Bild)
+• Urheberrecht an Bildinhalten (z. B. Logos, Kunstwerke)
+• Art. 52 EU AI Act – Transparenzpflicht bei generativer / multimodaler KI
+• Zweckbindung und Datenminimierung nach DSGVO
+• Abgrenzung zu Deepfake-Erkennung erforderlich
+
+===========================================================================
+                     TYPISCHE ANWENDUNGSBEREICHE
+===========================================================================
+
+• Medizinische Bildauswertung
+• Belegerkennung in Finanzprozessen
+• Sicherheits- und Überwachungssysteme
+• OCR-unterstützte Dokumentenanalyse
+• visuelle Analyse von Social Media Bildern

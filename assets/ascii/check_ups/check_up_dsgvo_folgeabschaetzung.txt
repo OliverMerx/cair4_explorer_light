@@ -1,0 +1,38 @@
+ASCII-Checkup für "VERTRAUENSWÜRDIGE KI":
+
+====================================================
+     CHECKLISTE: DATENSCHUTZ-FOLGENABSCHÄTZUNG
+====================================================
+
+[ ] Muss eine DSFA durchgeführt werden?
+    - Ja, wenn Verarbeitung voraussichtlich ein hohes Risiko birgt
+
+[ ] Kriterien für "wahrscheinlich hohes Risiko" (mind. 2 erfüllt):
+    - [ ] Automatisierte Entscheidungsfindung inkl. Profiling
+    - [ ] Verarbeitung besonderer Datenkategorien (Art. 9/10 DSGVO)
+    - [ ] Systematische Überwachung öffentlicher Bereiche
+    - [ ] Bewertung/Profilbildung (z. B. Verhalten, Standort)
+    - [ ] Verarbeitung in großem Umfang
+    - [ ] Zusammenführung mehrerer Datensätze
+    - [ ] Betroffene sind schutzbedürftig (Kinder, Patienten etc.)
+    - [ ] Innovative Technologien (z. B. KI, biometrisch)
+    - [ ] Verweigerung eines Rechts / Dienstleistungs-Zugangs
+
+[ ] Verantwortlichkeiten:
+    - [ ] DSFA vor Beginn der Verarbeitung
+    - [ ] Durchführung durch Verantwortlichen
+    - [ ] Einbindung Datenschutzbeauftragter
+    - [ ] Ggf. Konsultation der Aufsichtsbehörde bei Restrisiko
+
+[ ] DSFA-Inhalte (gemäß Art. 35 Abs. 7 DSGVO):
+    - [ ] Beschreibung der Verarbeitung + Zwecke
+    - [ ] Bewertung von Notwendigkeit und Verhältnismäßigkeit
+    - [ ] Risikobewertung für Rechte und Freiheiten
+    - [ ] Geplante Abhilfemaßnahmen
+
+[ ] DSFA-Ergebnisse dokumentieren und regelmäßig überprüfen
+[ ] Optional: Veröffentlichung (zur Vertrauensbildung)
+
+====================================================
+Quelle: WP248 Rev.01 - Leitlinien zur DSFA (Art. 29-Gruppe)
+====================================================

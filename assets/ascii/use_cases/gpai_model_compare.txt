@@ -1,0 +1,56 @@
+ASCII-Grafik zum Use Case "LLM-Vergleich":
+
+
++-------------------------+       +--------------------------+
+|   KI-System (Art. 3.1)  | ----> |   Generatives KI-Modell  |
++-------------------------+       +--------------------------+
+                                         |
+                                         |  ↳ z.B. GPT, Claude, Gemini
+                                         |
+                                         ▼
+                            +-----------------------------+
+                            |  Large Language Model (LLM) |
+                            |  → verarbeitet Texteingaben |
+                            +-----------------------------+
+                                         | 
+                                         ▼
+                            +-----------------------------+
+                            |  vielseitige Verwendbarkeit |
+                            |    → kompetente Umsetzung   |
+                            +-----------------------------+
+
+                                         |
+            +----------------------------+----------------------------+
+            |                             |                            |
+            ▼                             ▼                            ▼
++--------------------+       +---------------------+       +----------------------+
+| Texterstellung     |       | Code-Generierung    |       | Mehrsprachigkeit     |
+| (Chat, Antworten)  |       | (z.B. Python)       |       | (Übersetzungen)      |
++--------------------+       +---------------------+       +----------------------+
+
+                        ⚠️ Wissen basiert auf Trainingsdaten
+                           → "Knowledge Cutoff" = Stand X
+
+                                ▼
+             +----------------------------------------------+
+             | Neue Ereignisse nach dem Cutoff              |
+             | → oft nicht bekannt / nicht korrekt bewertet |
+             +----------------------------------------------+
+
+                                ▼
++---------------------------------------------------------------------+
+| Art. 3 Nr. 63 EU AI Act: KI-Modell mit allgemeinem Verwendungszweck |
++---------------------------------------------------------------------+
+|  ➤ vielseitig einsetzbar                                            |
+|  ➤ nicht auf bestimmten Zweck begrenzt                              |
+|  ➤ bildet Grundlage für andere KI-Systeme (→ GPAI-Komponente)       |
++---------------------------------------------------------------------+
+
+                                ▼
++--------------------------------------------------------------+
+| Art. 53 EU AI Act: Vorgaben für GPAI-Modelle                 |
++--------------------------------------------------------------+
+|  • Technische Dokumentation & Transparenzpflichten           |
+|  • Risikobewertung & Sicherheitsmechanismen                  |
+|  • Möglichkeit zur Integration in andere Systeme             |
++--------------------------------------------------------------+

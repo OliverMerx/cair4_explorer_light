@@ -1,0 +1,42 @@
+ASCII-Grafik zum Use Case "Named Entity Recognition":
+
++-------------------------------------------------------------+
+|                  📄 Eingabe: Rohtext (z. B. Bericht)         |
++-------------------------------------------------------------+
+                              │
+                              ▼
+          🔍 Analyse mit KI-Modell zur Entitätserkennung
+                              │
+                              ▼
+      ┌───────────────────────────────────────────────┐
+      │     🧩 Text wird tokenisiert (z. B. Wortweise) │
+      └───────────────────────────────────────────────┘
+                              │
+                              ▼
+         🏷️ Klassifikation relevanter Wörter / Phrasen:
+              ┌────────────────────────────┐
+              │     Max Mustermann        │ → PER
+              │     Berlin                │ → LOC
+              │     OpenAI GmbH           │ → ORG
+              │     12. Januar 2024       │ → DATE
+              └────────────────────────────┘
+                              │
+                              ▼
+    📊 Ergebnis: Text mit strukturierten Metadaten ergänzt
+
+                              ▼
++-------------------------------------------------------------+
+|     ✅ Output: Entitäten mit Typangabe & Kontextanzeige     |
++-------------------------------------------------------------+
+
+             Beispiel-Format (modellabhängig):
+
+        - "Max Mustermann" [PER]
+        - "Berlin" [LOC]
+        - "OpenAI GmbH" [ORG]
+        - "12. Januar 2024" [DATE]
+
+Wichtig bei der NER-Anwendung:
+• Die Qualität hängt stark vom Modelltyp und Training ab.
+• Kürzel wie PER, LOC, ORG, DATE, MISC sind gängig – aber nicht standardisiert.
+• Besonders hilfreich für automatisierte Datenextraktion, Suchsysteme, Regelwerke oder Berechtigungsprüfungen.

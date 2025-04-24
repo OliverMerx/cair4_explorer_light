@@ -1,0 +1,29 @@
+
+ASCII-Grafik zum Use Case "Embedding":
+
++----------------------+         +-----------------------------+
+|   Eingabe-Sätze      |         |  Neuronales Sprachmodell    |
+| (z.B. "KI-System")   |  --->   |     (z.B. MiniLM, BERT)     |
++----------------------+         +-----------------------------+
+                                           |
+                                           | Embedding
+                                           v
+                                 +------------------------+
+                                 |   Zahlenvektoren (z.B. |
+                                 |   [0.91, -0.11, ...])  |
+                                 +------------------------+
+                                           |
+                                           | Dimensionality Reduction
+                                           v
+                         +---------------------------------------+
+                         |  ↓ PCA / t-SNE (2D-Projektion)        |
+                         |                                       |
+                         |      o  "KI-System"                   |
+                         |      o  "Transparenz"                 |
+                         |      o  "Erklärbarkeit"               |
+                         |      o  "Autonomie"                   |
+                         +---------------------------------------+
+                                           |
+                                           v
+                                 Nutzer sieht visuelles Mapping
+                                 (Cluster = semantische Nähe)

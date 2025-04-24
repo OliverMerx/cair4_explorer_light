@@ -1,0 +1,1038 @@
+{
+    "entries": [
+        {
+            "timestamp": "2025-04-24T21:28:56.942570",
+            "use_case": [],
+            "session_id": "N/A",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/chat_sessions.json",
+                "count": 0
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:28:56.942854",
+            "use_case": [],
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "Saved Sessions",
+            "details": {
+                "file": "CAIR4_data/data/chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:28:56.943456",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:28:57.316703",
+            "use_case": "CAIR4-Explorer",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:11.865811",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:12.213182",
+            "use_case": "Intro Kapitel 1",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:13.432691",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:13.775520",
+            "use_case": "Intro Kapitel 2",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:15.009694",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:15.343239",
+            "use_case": "Intro Kapitel 3",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:16.529966",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:16.873439",
+            "use_case": "Arbeitszeugnis",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:20.821366",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:21.150339",
+            "use_case": "OCR-Texterkennung",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:22.671787",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:22.995612",
+            "use_case": "OCR-Bildstruktur",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:24.366507",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:24.707728",
+            "use_case": "Intro Kapitel 1",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:28.612977",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:28.946532",
+            "use_case": "KI-System",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "Session File Created",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:28.948031",
+            "use_case": "KI-System",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 0
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:28.955301",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:35.846925",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:36.173528",
+            "use_case": "KI-System",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 0
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:36.174797",
+            "use_case": "KI-System",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 0
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:36.183274",
+            "use_case": "KI-System",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "Saved Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:36.184612",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:40.740242",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:41.074424",
+            "use_case": "Intro Kapitel 2",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:51.322964",
+            "use_case": [],
+            "session_id": "N/A",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:51.323439",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:52.036979",
+            "use_case": "Website-Crawler-Dialog",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:54.302373",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:29:58.965421",
+            "use_case": "Website-Crawler-Dialog",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:08.985799",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:09.312536",
+            "use_case": "Intro Kapitel 3",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:20.362352",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:20.698629",
+            "use_case": "Intro Kapitel 3",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:25.533586",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:25.863196",
+            "use_case": "Arbeitszeugnis",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:29.476709",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:34.931335",
+            "use_case": "Arbeitszeugnis",
+            "session_id": "N/A",
+            "action": "Saved Sessions",
+            "details": {
+                "file": "CAIR4_data/data/hr_reference_sessions.json",
+                "count": 2
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:34.932142",
+            "use_case": "Arbeitszeugnis",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:56.209746",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:30:56.551581",
+            "use_case": "Intro Kapitel 1",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:00.278041",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:00.606490",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:00.609451",
+            "use_case": "KI-System",
+            "session_id": "1985e862-403c-42fe-a5b3-bfc4bd3f4df5",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:00.618498",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:03.916897",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:04.242010",
+            "use_case": "KI-System",
+            "session_id": "7ef90f96-fb76-458c-acab-0f3b3497587a",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:04.244879",
+            "use_case": "KI-System",
+            "session_id": "16b0b15e-1296-4b14-b4b5-073821e47823",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:07.629143",
+            "use_case": "KI-System",
+            "session_id": "63d03535-08fa-4d4f-ba6f-6c813950da17",
+            "action": "Saved Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 2
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:07.629827",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:14.687802",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:15.015287",
+            "use_case": "KI-System",
+            "session_id": "63d03535-08fa-4d4f-ba6f-6c813950da17",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 2
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:15.019023",
+            "use_case": "KI-System",
+            "session_id": "fe27ed8b-8bdb-4b5c-8042-e2808700cb43",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 2
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:15.027870",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:17.868013",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:18.195241",
+            "use_case": "KI-System",
+            "session_id": "77a14ab8-d820-461c-a586-08d634c887d4",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 2
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:18.200164",
+            "use_case": "KI-System",
+            "session_id": "361bbf33-e33e-4fbe-967b-02ec914922df",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 2
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:19.842143",
+            "use_case": "KI-System",
+            "session_id": "14f6b7da-ad81-4dde-a02d-ee6a714f00df",
+            "action": "Saved Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 3
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:31:19.842896",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:04.136567",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:04.467542",
+            "use_case": "KI-System",
+            "session_id": "14f6b7da-ad81-4dde-a02d-ee6a714f00df",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 3
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:04.471144",
+            "use_case": "KI-System",
+            "session_id": "2b1fd1e7-487b-45a8-9abf-a48b3ac2e537",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 3
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:04.480852",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:07.250897",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:07.578832",
+            "use_case": "KI-System",
+            "session_id": "4a6c11e3-c5fb-466b-a5de-f33b4cb284ed",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 3
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:07.582303",
+            "use_case": "KI-System",
+            "session_id": "0fab57a0-4238-4583-9573-5f638c48f495",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 3
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:14.582439",
+            "use_case": "KI-System",
+            "session_id": "e7ec82a6-a9c7-427c-98f5-535c2cb00d34",
+            "action": "Saved Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 4
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:32:14.583234",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:33:58.822161",
+            "use_case": [],
+            "session_id": "N/A",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:33:58.822978",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:33:59.175239",
+            "use_case": "CAIR4-Explorer",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:34:09.493839",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:34:09.856005",
+            "use_case": "CAIR4-Explorer",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:35:17.216683",
+            "use_case": [],
+            "session_id": "N/A",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:35:17.218859",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:35:17.586697",
+            "use_case": "CAIR4-Explorer",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:36:45.676628",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:36:46.027503",
+            "use_case": "Intro Kapitel 1",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:36:47.852714",
+            "use_case": [],
+            "session_id": "N/A",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:36:47.853730",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:36:48.187959",
+            "use_case": "Chat-mit-Sessionged\u00e4chtnis",
+            "session_id": "N/A",
+            "action": "Session File Created",
+            "details": {
+                "file": "CAIR4_data/data/session_memory_chat_sessions.json"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:36:48.192822",
+            "use_case": "Chat-mit-Sessionged\u00e4chtnis",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:54:54.459723",
+            "use_case": [],
+            "session_id": "N/A",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/chat_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:54:54.460784",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:54:54.830054",
+            "use_case": "CAIR4-Explorer",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:54:59.910485",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:00.253194",
+            "use_case": "Intro Kapitel 1",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:09.586557",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:09.928065",
+            "use_case": "Intro Kapitel 1",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:14.672453",
+            "use_case": "Unknown",
+            "session_id": "050a3c44-5a62-482f-afcb-d4d3668857f4",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:15.005287",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 4
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:15.008207",
+            "use_case": "KI-System",
+            "session_id": "4a3fea23-8c99-465e-8444-e6314cfc0704",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 4
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:15.015235",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:18.616492",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:18.941715",
+            "use_case": "KI-System",
+            "session_id": "17ff53ea-b021-48d3-9d18-478281d732b9",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 4
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:18.943957",
+            "use_case": "KI-System",
+            "session_id": "e9f4a712-8ec6-4225-bef3-cbb32ce480e6",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 4
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:21.608652",
+            "use_case": "KI-System",
+            "session_id": "d2b248c1-d3cb-421c-b51e-96eff7eeb1fa",
+            "action": "Saved Sessions",
+            "details": {
+                "file": "CAIR4_data/data/stateless_chat_sessions.json",
+                "count": 5
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:21.609580",
+            "use_case": "KI-System",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:29.866601",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:30.211615",
+            "use_case": "Intro Kapitel 2",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:32.451511",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:32.779504",
+            "use_case": "Chain-of-Thouths",
+            "session_id": "d2b248c1-d3cb-421c-b51e-96eff7eeb1fa",
+            "action": "Session File Created",
+            "details": {
+                "file": "CAIR4_data/data/cot_sessions.json"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:32.797292",
+            "use_case": "Chain-of-Thouths",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:42.314540",
+            "use_case": "Unknown",
+            "session_id": "N/A",
+            "action": "App gestartet",
+            "details": {
+                "status": "Session init"
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:42.643601",
+            "use_case": "Chain-of-Thouths",
+            "session_id": "d2b248c1-d3cb-421c-b51e-96eff7eeb1fa",
+            "action": "Loaded Sessions",
+            "details": {
+                "file": "CAIR4_data/data/cot_sessions.json",
+                "count": 0
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:45.687281",
+            "use_case": "Chain-of-Thouths",
+            "session_id": "d2b248c1-d3cb-421c-b51e-96eff7eeb1fa",
+            "action": "Saved Sessions",
+            "details": {
+                "file": "CAIR4_data/data/cot_sessions.json",
+                "count": 1
+            }
+        },
+        {
+            "timestamp": "2025-04-24T21:55:45.688339",
+            "use_case": "Chain-of-Thouths",
+            "session_id": "N/A",
+            "action": "App Closed",
+            "details": {
+                "info": "No details provided"
+            }
+        }
+    ],
+    "steps": []
+}

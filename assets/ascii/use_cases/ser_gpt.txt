@@ -1,0 +1,45 @@
+ASCII-Grafik zum Use Case "Search Augmented Response mit ToolCalls":
+
++---------------------------------------------------------------------+
+| 🙋 Nutzer stellt eine aktuelle Frage über das Chat-Interface         |
+| z. B. „Was hat Elon Musk gestern getwittert?“                       |
++---------------------------------------------------------------------+
+                                  │
+                                  ▼
+🔗 LangChain-Agent aktiviert Tool "DuckDuckGoSearchRun" (ToolCall)
+                                  │
+                                  ▼
+🦆 DuckDuckGo liefert Ergebnisse aus **eigenem Webindex** (keine Google-Daten)
+                                  │
+                                  ▼
+📑 Ergebnisse (Titel, Snippet, URL) werden automatisch vom Agent geparsed
+                                  │
+                                  ▼
+🧠 GPT-4o oder kompatibles LLM analysiert die Suchergebnisse intern
+  → Keine manuelle Prompt-Erweiterung notwendig!
+                                  │
+                                  ▼
++---------------------------------------------------------------------+
+| 💬 Die Antwort erscheint im Chat – basierend auf autonomer Suche     |
+|     inkl. Tools, Reasoning, evtl. Tool-Nachfragen des Agenten       |
++---------------------------------------------------------------------+
+
+📌 Wichtig:
+- Funktioniert **nur mit LLMs, die ToolCalls / Agents unterstützen**
+- Suchprozess wird **durch das KI-System selbst gesteuert**
+- Keine Kontrolle über eingebettete Quellen – aber dynamisch & reaktiv
+
+
+
+Vergleichende Übersicht der SER-Varianten:
+
++--------------------------------------------------------------------------------------------------------------------+
+| Variante                     | Kontextbereitstellung        | Tool-Anbindung   | Besonderheit                      |
+|------------------------------|------------------------------|------------------|-----------------------------------|
+| 1. GPT-4o + Bing-API         | Direkt durch Modell (API)    | Integriert       | Nur mit OpenAI-API                |
+| 2. GPT-4o + LangChain Agent. | Tool-Call via ReAct Agent    | Autonom (Agent)  | Agent entscheidet Tool-Einsatz    |
+| 3. Beliebiges LLM + DDGS     | Manuell per Python-Logik     | Extern (ddg)     | Modell-unabhängig & kontrolliert  |
++--------------------------------------------------------------------------------------------------------------------+
+
+Variante 3 kann mit **jedem beliebigen Sprachmodell** (z. B. GPT, Claude, Mistral, Llama) kombiniert werden –  
+da der Web-Kontext unabhängig erstellt und manuell in den Prompt eingebettet wird.

@@ -1,0 +1,43 @@
+ASCII-Grafik zum Use Case "GPT-Websearch":
++-------------------------------------------------------------------------+
+|   Nutzer stellt eine aktuelle Frage direkt an das GPT-4o-Modell         |
+|   z. B. „Was sind die neuesten EU-Beschlüsse zur KI-Verordnung?“        |
++-------------------------------------------------------------------------+
+                                   │
+                                   ▼
+🔌 OpenAI-Modell "gpt-4o-search-preview" führt **interne Websuche** durch  
+   – direkt eingebettet in das Modell via Search-API (nur OpenAI)
+                                   │
+                                   ▼
+🌐 Das Modell durchsucht **Webquellen** (News, Portale, Studien) serverseitig
+                                   │
+                                   ▼
+📑 Ergebnisse werden **im Modell selbst analysiert & verarbeitet**
+   – keine ToolCalls, kein externer Agent, keine externe Kontrolle
+                                   │
+                                   ▼
++-------------------------------------------------------------------------+
+|    Antwort wird **direkt vom Modell generiert**                         |
+|    Optional mit: Inline-Quellen / Expander mit Links & Snippets         |
++-------------------------------------------------------------------------+
+
+📌 Besonderheiten:
+- **Nur nutzbar mit OpenAI GPT-4o (`search-preview`)**
+- **Keine eigene Kontrolle über Suchquellen**
+- Generell auch mit anderen Web-Search-KI-Modelle möglich, wenn Suche in API integriert.
+- Ergebnis ist oft sehr aktuell, aber nicht transparent steuerbar
+- Ideal für einfache, aktuelle Info-Anfragen mit begrenztem Auditbedarf
+
+
+Vergleichende Übersicht der SER-Varianten:
+
++--------------------------------------------------------------------------------------------------------------------+
+| Variante                     | Kontextbereitstellung        | Tool-Anbindung   | Besonderheit                      |
+|------------------------------|------------------------------|------------------|-----------------------------------|
+| 1. GPT-4o + Bing-API         | Direkt durch Modell (API)    | Integriert       | Nur mit OpenAI-API                |
+| 2. GPT-4o + LangChain Agent. | Tool-Call via ReAct Agent    | Autonom (Agent)  | Agent entscheidet Tool-Einsatz    |
+| 3. Beliebiges LLM + DDGS     | Manuell per Python-Logik     | Extern (ddg)     | Modell-unabhängig & kontrolliert  |
++--------------------------------------------------------------------------------------------------------------------+
+
+Variante 3 kann mit **jedem beliebigen Sprachmodell** (z. B. GPT, Claude, Mistral, Llama) kombiniert werden –  
+da der Web-Kontext unabhängig erstellt und manuell in den Prompt eingebettet wird.

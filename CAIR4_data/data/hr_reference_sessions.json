@@ -1,0 +1,20 @@
+{
+    "messages": [],
+    "calculations": [
+        {
+            "input_data": {
+                "name": "",
+                "position": "",
+                "eintrittsdatum": "2025-04-24",
+                "austrittsdatum": "2025-04-24",
+                "leistungsbewertung": "Sehr gut",
+                "soziale_kompetenzen": "",
+                "arbeitsweise": [],
+                "besondere_erfolge": "",
+                "zeugnissprache": "Standard"
+            },
+            "zeugnis_text": "Arbeitszeugnis\n\nHerr/Frau [Name] war vom 24. April 2025 bis zum 24. April 2025 in unserem Unternehmen als [Position] t\u00e4tig.\n\nW\u00e4hrend dieser Zeit zeigte Herr/Frau [Name] stets eine sehr gute Leistung. Die ihm/ihr \u00fcbertragenen Aufgaben erf\u00fcllte er/sie zu unserer vollsten Zufriedenheit.\n\nSeine/Ihre Arbeitsweise war gepr\u00e4gt von Sorgfalt und Zuverl\u00e4ssigkeit. Er/Sie arbeitete stets effizient und zielorientiert.\n\nWir danken Herrn/Frau [Name] f\u00fcr die geleistete Arbeit und w\u00fcnschen ihm/ihr f\u00fcr die Zukunft weiterhin viel Erfolg und alles Gute.\n\n[Ort], [Datum]\n\n[Unterschrift]\n\n[Name, Position des Ausstellers]",
+            "timestamp": "2025-04-24T21:30:34.930878"
+        }
+    ]
+}

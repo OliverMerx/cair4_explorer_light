@@ -1,0 +1,73 @@
+ASCII-Grafik zum Use Case "SQL-Chatbot":
+
++-----------------------------------------------------------+
+| 💬 Nutzer stellt eine Frage zur Datenbank                 |
+|    z. B. "Wie viele Mitarbeiter gibt es?"                |
++-----------------------------------------------------------+
+                           │
+                           ▼
+ ⚙️ Optional: SQL-Agent wird aktiviert (LangChain + OpenAI)
+                           │
+                           ▼
+ 🗄️ Zugriff auf strukturierte Tabellen der Datenbank (Chinook)
+      z. B. Artist, Employee, Track, Invoice, Customer ...
+                           │
+                           ▼
+ 🧠 KI-Modell generiert passende SQL-Abfrage aus natürlicher Sprache
+                           │
+                           ▼
+ 🔄 SQL-Query wird ausgeführt → Ergebnisse aus Datenbank geladen
+                           │
+                           ▼
++-----------------------------------------------------------+
+| 📋 Antwort im Chat: SQL-Code + Ergebnisse im Klartext      |
+|    Beispiel: Liste der Mitarbeitenden mit Name & Position |
++-----------------------------------------------------------+
+                           │
+                           ▼
+ 📁 Verlauf & Metriken werden gespeichert (Session, Tokens etc.)
+
+
++===========================================+
+|         SQL vs. RAG – Systemvergleich     |
++===========================================+
+
+ZUGRIFFSSTRUKTUR
++-------------------------+------------------------------+
+| SQL-Chat                | Dokument-RAG                 |
++-------------------------+------------------------------+
+| Strukturierte Daten     | Unstrukturierte Texte        |
+| (Tabellen, Spalten)     | (PDFs, Webseiten, Reports)   |
+
+PRÄZISION & KONSISTENZ
++-------------------------+------------------------------+
+| Exakte Feldabfragen     | Kontextsensitive Chunks      |
+| (z. B. WHERE, JOIN)     | (semantisch, aber ungenau)   |
+
+PERFORMANZ
++-------------------------+------------------------------+
+| Sehr schnelle Abfragen  | Vektorvergleich + Ranking    |
+| auf Datenbank-Index     | Rechenintensiver Prozess     |
+
+AKTUALITÄT
++-------------------------+------------------------------+
+| Live-Daten möglich      | Nur Stand beim Einlesen      |
+| bei angebundener DB     | der Chunks                   |
+
+KOMPLEXITÄT
++-------------------------+------------------------------+
+| Query-Logik steuerbar   | Modell entscheidet,          |
+| über SQL-Syntax         | welche Teile genutzt werden  |
+
+TRANSPARENZ
++-------------------------+------------------------------+
+| Klarer SQL-Code         | Blackbox-Suche               |
+| vollständig reproduzierbar | Keine explizite Kontrolle |
+
++===========================================+
+| Fazit:                                     |
+| SQL eignet sich bei bekannten              |
+| Datenstrukturen und eindeutigen Fragen.    |
+| RAG ist flexibler bei freien Texten,       |
+| aber weniger kontrollierbar.               |
++===========================================+

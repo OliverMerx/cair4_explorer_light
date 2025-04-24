@@ -1,0 +1,56 @@
+
+ASCII-Grafik zum Use Case "Kontext-Chat":
+
+┌────────────────────────────────────────────────────────────┐
+│       🧠 KONTEXT-GESTEUERTER CHAT – SEMANTIK MIT SINN      │
+│   Gleiche Frage – unterschiedliche Antwort durch Kontext   │
+└────────────────────────────────────────────────────────────┘
+
+     Frage: „Wie hoch ist das Risiko für einen Schaden?“
+
+                    ▼                        ▼
+       ┌────────────────────┐     ┌────────────────────┐
+       │   Kontext: Finance │     │ Kontext: Medicine  │
+       └────────────────────┘     └────────────────────┘
+       „Risiko“ = Verlustgefahr     „Risiko“ = Krankheitswahrsch.
+       „Schaden“ = monetär          „Schaden“ = gesundheitlich
+
+                    ▼                        ▼
+       ┌────────────────────┐     ┌────────────────────┐
+       │   Kontext: Retail  │     │ Kontext: Tech       │
+       └────────────────────┘     └────────────────────┘
+       „Risiko“ = Lagerausfall     „Risiko“ = Systemfehler
+       „Schaden“ = Reklamation     „Schaden“ = Datenverlust
+
+──────────────────────────────────────────────────────────────
+
+       🧩 Bedeutung von „Kontext“ im GPAI-System
+
+┌────────────────────────────────────────────────────────────┐
+│ ✅ Kontext steuert Antwortstil & Wissensbereich             │
+│ ✅ Prompt-Inhalte werden gezielt mit zusätzlichem Wissen    │
+│    angereichert, z. B. durch system_message oder KontextDB  │
+│ ✅ Besonders wichtig für regulatorische Begriffe            │
+└────────────────────────────────────────────────────────────┘
+
+──────────────────────────────────────────────────────────────
+
+🎯 Vorteile des kontextgesteuerten Chats:
+
+- Weniger Missverständnisse bei komplexen Begriffen  
+- Präzisere, rollen- oder fachspezifische Antworten  
+- Geeignet für juristische, medizinische oder wirtschaftliche Fragestellungen  
+- Erfüllt Anforderungen an **XAI (Explainable AI)** und **Transparenz**  
+
+──────────────────────────────────────────────────────────────
+
+⚖️ Regulatorischer Bezug
+
+📌 EU AI Act / AIA:
+- Festlegung von Kontexten kann zur Anbieterschaft i.S.v. Art. 3 Nr. 3 EU AI Act führen  
+- Reduziert dafür aber das Risiko irreführender Antworten bei sensiblen Begriffen   
+- Wichtig bei GPAI-Systemen mit hoher Autonomie 
+
+💬 Empfehlung:
+→ Explizite Festlegung, welche Kontexte erlaubt und relevant sind  
+→ Nutze den Kontext gezielt für Klarheit, aber transparent und dokumentiert  

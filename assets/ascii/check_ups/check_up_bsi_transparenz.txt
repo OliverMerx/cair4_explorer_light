@@ -1,0 +1,37 @@
+ASCII-Checkup für "Erklärbarkeit nach BSI:
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│     Checkliste: Erklärbarkeit und Manipulationsschutz von KI-Systemen      │
+│     (Fokus: Finanzwelt, Verbraucherschutz, Auditierung, XAI)               │
+├────────────────────────────────────────────────────────────────────────────┤
+│    1. UNEINIGKEIT VON ERKLÄRUNGSMETHODEN                                   │
+│     - Wurden mehrere XAI-Methoden verglichen?                              │
+│     - Besteht methodische Uneinigkeit zwischen z. B. SHAP, LIME, SOFI?     │
+│     - Gibt es dokumentierte Entscheidungen zur Methodenauswahl?            │
+├────────────────────────────────────────────────────────────────────────────┤
+│     2. MANIPULATIONSANFÄLLIGKEIT VON ERKLÄRUNGEN                           │
+│      - Besteht Schutz gegen gezielte Manipulation post-hoc-Erklärungen?    │
+│      - Wird ein konsistentes Modell-Erklärungs-Verhältnis geprüft?         │
+│      - Können SHAP/LIME-basierte Erklärungen gezielt umgangen werden?      │
+├────────────────────────────────────────────────────────────────────────────┤
+│     3. FAIRNESS / FAIRWASHING-PRÄVENTION                                   │
+│     - Wurden Surrogate-Modelle auf Diskriminierungsfreiheit geprüft?       │
+│     - Gibt es Schutz gegen Ergebnis-Fairwashing bei individuellen Fällen?  │
+│     - Ist die Fairness-Gap dokumentiert und erklärbar?                     │
+├────────────────────────────────────────────────────────────────────────────┤
+│     4. TECHNISCHE UND REGULATORISCHE AUDITFÄHIGKEIT                        │
+│      - Wird ein Audit-Datensatz zur Validierung von Erklärungen genutzt?   │
+│      - Besteht Zugriff auf Innenleben der Modelle (Whitebox / Outside)?    │
+│     - Ist ein differenzierter Einsatz für kritische / nicht-kritische KI   │
+│       vorgesehen?                                                          │
+├────────────────────────────────────────────────────────────────────────────┤
+│     5. ROBUSTHEIT UND ALTERNATIVEN                                         │
+│      - Sind Erklärungsmodelle robust gegenüber adversarialen Inputs?       │
+│      - Werden projektionstechnische Schutzmaßnahmen eingesetzt?            │
+│     - Gibt es klare Vorgaben zur XAI-Nutzung bei Kreditentscheidungen etc.?│
+├────────────────────────────────────────────────────────────────────────────┤
+│     EMPFEHLUNG FÜR DIE FINANZWELT UND KRITISCHE INFRASTRUKTUR              │
+│     - Nur auditierbare, manipulationsresistente Modelle verwenden          │
+│     - Verwendung von erklärbaren Modellen (surrogate + fair) bevorzugen    │
+│     - Einsatz von Benchmarks zur Vorabprüfung bei Verbraucherprodukten     │
+└────────────────────────────────────────────────────────────────────────────┘

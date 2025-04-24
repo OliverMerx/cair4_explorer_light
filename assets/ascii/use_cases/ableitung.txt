@@ -1,0 +1,63 @@
+ASCII-Grafik zum Use Case "Ableitung":
+
+
+                            📥 Eingabe: 
+               "Sollte ich bei Regen joggen gehen?"
+
+                                │
+                                ▼
+                 ┌──────────────────────────────┐
+                 │   Tokenisierung & Kontext    │
+                 └──────────────────────────────┘
+                                │
+                                ▼
+                 ┌──────────────────────────────┐
+                 │   Semantische Vektorisierung │
+                 └──────────────────────────────┘
+                                │
+                                ▼
+                 ┌──────────────────────────────┐
+                 │ Interne Mustererkennung via  │
+                 │ neuronales Netz              │
+                 └──────────────────────────────┘
+                                │
+                                ▼
+            ┌──────────────────────────────────────────┐
+            │ Ausgabe (Varianz möglich):               │
+            │  ➤ „Joggen ist ok – mit Regenjacke.“     │
+            │  ➤ „Lieber Indoor trainieren.“           │
+            │  ➤ „Es kommt auf die Intensität an.“     │
+            └──────────────────────────────────────────┘
+
+             [ Verschiedene plausible Outputs trotz gleicher Eingabe ]
+             [ KI = flexibel, kontextabhängig, nicht fixiert ]
+
+──────────────────────────────────────────────────────────────────────
+🛡️ Relevanz: Art. 3 Nr. 1 EU AI Act  
+➤ Entscheidend: **Autonomie & Datenbasierte Ableitung**  
+➤ Unterschied zu regelbasierter Software = dynamische Antwortlogik
+
+
++======================================================================+
+|       ⚙️ Warum KI anders antwortet – auch bei gleicher Frage         |
++======================================================================+
+|                                                                      |
+|    Frage:    „Soll ich heute das grüne oder das blaue Auto kaufen?“  |
+|                                                                      |
+|    Antwort KI, Versuch 1:  → „Das grüne – besserer Verbrauch“        |
+|    Antwort KI, Versuch 2:  → „Das blaue – mehr Komfort“              |
+|                                                                      |
+|    ➤ KI berücksichtigt Kontexte, Beispiele, Wahrscheinlichkeiten     |
+|       ➤ KEINE festen Regeln                                          |
+|       ➤ Antworten = abgeleitet aus Mustern                           |
+|                                                                      |
+|  Regelbasierte Software:                                             |
+|  IF X THEN Y → immer gleich                                          |
+|                                                                      |
+|  KI-System:                                                          |
+|  Wahrscheinlichkeitsraum → Top-K Auswahl                             |
+|                                                                      |
+|  🛡️ Relevanz EU AI Act:                                              |
+|     • Art. 3 Nr. 1 (KI-Verhalten ≠ deterministisch)                  |
+|     • Art. 13 (Erklärbarkeit bei Hochrisiko, keine Blackbox)         |
++======================================================================+

@@ -1,0 +1,68 @@
+ASCII-Grafik zum Use Case "RAG Encrypted":
+
++-------------------------------------------------------------+
+| 🔐 DSGVO-konformer RAG-Use Case mit Chunk-Verschlüsselung  |
++-------------------------------------------------------------+
+         |
+         ▼
+ [PDF Upload mit potenziell sensiblen Daten]
+         |
+         ▼
+ [Text wird extrahiert & in kleinere Chunks aufgeteilt]
+         |
+         ▼
+ [Jeder Chunk wird einzeln verschlüsselt 🔐]
+         |
+         ▼
+ [Embeddings aus unverschlüsseltem Text werden erstellt]
+         |
+         ▼
+ [Chunks + Embeddings werden in Vektor-Datenbank gespeichert]
+         |
+         ▼
+ [User stellt Frage → Embedding-Match in Klartext]
+         |
+         ▼
+ [Gefundene Chunks werden entschlüsselt 🔓]
+         |
+         ▼
+ [Entschlüsselte Inhalte werden dem LLM zur Antwortgenerierung übergeben]
+         |
+         ▼
+ 🧠 Antwort unter Wahrung des Datenschutzes
+
+
+Hinweis: Verschlüsselung schützt gespeicherte Inhalte, nicht den Suchprozess selbst – dieser nutzt Klartext-Embeddings!
+
+RAG lässt sich zudem technisch unterschiedlich umsetzen:
+• ✳ Vektor-DBs: FAISS, ChromaDB, Weaviate, Pinecone, etc.
+• ✳ Kontext-Formate: Volltext, Chunk-Auswahl, semantisch gefiltert
+• ✳ Quellen: PDFs, Webseiten, SQL, APIs, Wissensgraphen
+• ✳ Modelle: GPT-4, Claude, Mistral, Qwen u. v. m.
+
+
++---------------------------------------------------------------+
+|         🔄 Retrieval-Augmented Generation (allgemein)         |
++---------------------------------------------------------------+
+
+            +------------------+              
+            |  Nutzer-Prompt   | <──────────────┐
+            +------------------+                │
+                      │                         │
+                      ▼                         │
+        +--------------------------+            │
+        |  Wissens-Retrieval-Modul |            │
+        |  (Datenbank, FAISS, API) |────────────┘
+        +--------------------------+
+                      │
+                      ▼
+       [ Kontextuelle Informationen ]  
+                      │
+                      ▼
+       +--------------------------------+
+       |  Sprachmodell (LLM, z. B. GPT) |
+       |  verarbeitet Prompt + Kontext  |
+       +--------------------------------+
+                      │
+                      ▼
+               🧠 Generierte Antwort

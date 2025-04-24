@@ -1,0 +1,47 @@
+ASCII-Grafik zum Use Case "Knowledge Graph":
+
++-------------------------------------------------------------+
+|        📄 Eingabe: Unstrukturierter Text (z. B. Bericht)    |
++-------------------------------------------------------------+
+                             │
+                             ▼
+      🔍 Schritt 1: Analyse durch KI-Modell (Textverständnis)
+                             │
+                             ▼
+   ┌────────────────────────────────────────────────────────┐
+   │    Extraktion semantischer Beziehungen (Triples)       │
+   └────────────────────────────────────────────────────────┘
+
+              📌 Format: Subjekt – Prädikat – Objekt
+
+              Beispiel:
+              - "Berlin"      – "ist Hauptstadt von" – "Deutschland"
+              - "OpenAI"      – "entwickelt"         – "GPT-Modelle"
+              - "Angela Merkel" – "war"              – "Bundeskanzlerin"
+
+                             │
+                             ▼
+   🧠 Schritt 2: Aufbau eines Knowledge Graphs aus den Triples
+
+                    ┌──────────────┐
+                    │  OpenAI      │
+                    └────┬─────────┘
+                         │ entwickelt
+                         ▼
+                    ┌──────────────┐
+                    │ GPT-Modelle  │
+                    └──────────────┘
+
+                             │
+                             ▼
+   🔎 Schritt 3: Named Entity Recognition (NER) zur Markierung
+                  relevanter Begriffe im Text:
+
+         ▪ Angela Merkel → [PER]
+         ▪ Berlin        → [LOC]
+         ▪ OpenAI        → [ORG]
+
+                             ▼
++----------------------------------------------------------------+
+|   ✅ Ergebnis: Interaktiver Knowledge Graph & NER-Hervorhebung |
++----------------------------------------------------------------+

@@ -1,0 +1,47 @@
+ASCII-Checkup für "KI & Compliance":
+
++===============================================================+
+|              ASCII-Checkliste: KI & Compliance                |
++===============================================================+
+| 📌 Allgemeine Übersicht                                       |
+| [ ] Ist der Anwendungsfall von einem KI-System erfasst?       |
+| [ ] Welche Risikostufe (AI Act: Art. 5, 6, 50 etc.)?          |
+| [ ] Ist das KI-System Hochrisiko?                             |
+| [ ] Existiert eine Verantwortungszuweisung (Anbieter / Nutzer)?|
++---------------------------------------------------------------+
+| 📜 AI Act – Pflichten für Anbieter                            |
+| [ ] Systemkonformität (Art. 8-15 AI Act) nachgewiesen?        |
+| [ ] Dokumentation & Transparenz umgesetzt?                    |
+| [ ] Datenqualität: korrekt, repräsentativ, bias-minimiert?    |
+| [ ] Performance: Genauigkeit, Robustheit, Sicherheit?         |
++---------------------------------------------------------------+
+| 🔍 AI Act – Pflichten für Betreiber                           |
+| [ ] Menschliche Aufsicht gewährleistet?                       |
+| [ ] Techn./organ. Maßnahmen zur Betriebsüberwachung?          |
+| [ ] Datenverantwortung & Governance umgesetzt?                |
+| [ ] Grundrechtsfolgenabschätzung notwendig? (Art. 29)         |
++---------------------------------------------------------------+
+| ⚖️ Produkthaftung & AILD                                      |
+| [ ] Wurden Designentscheidungen dokumentiert?                 |
+| [ ] Gibt es einen Haftungsschutz (Verträge, Markenhaftung)?  |
+| [ ] Incident-Reporting & Risikomanagement eingerichtet?       |
++---------------------------------------------------------------+
+| 🎨 Urheberrecht & generative KI                               |
+| [ ] Ist der Output durch Urheberrecht geschützt?              |
+| [ ] TDM-Ausnahme geprüft (Opt-out, Verträge)?                 |
+| [ ] Nutzung nur mit eigenem/freiem/lizenziertem Material?     |
+| [ ] Watermarking oder Transparenzhinweis enthalten?           |
++---------------------------------------------------------------+
+| 🚨 Verantwortlichkeit & Haftung                               |
+| [ ] Nutzer distanziert sich vom Output (Zitat, Posting)?      |
+| [ ] Inhalte wurden moderiert oder überprüft?                  |
+| [ ] Gibt es Prozesse für Notice & Takedown?                   |
++---------------------------------------------------------------+
+| 🧠 Nichtdiskriminierung & Bias                                |
+| [ ] Diskriminierungsrisiken (z.B. Job, Medizin) erkannt?      |
+| [ ] Fairness-Maßnahmen auch bei GenAI umgesetzt?              |
+| [ ] Randomness-Effekte berücksichtigt (Prompt-Sensitivität)?  |
++===============================================================+
+| Hinweis: Diese Checkliste ist ein Auszug für juristische      |
+| Prüfungen im Kontext KI-Regulierung (EU AI Act, DSGVO, etc.)  |
++===============================================================+

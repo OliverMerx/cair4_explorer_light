@@ -1,0 +1,40 @@
+ASCII-Grafik zum Use Case "Crash Simulation":
+
++--------------------------------------------------------+
+|   Nutzer wählt einen Crash-Typ im CAIR4 Simulator      |
+|    (z. B. Division by Zero, File Not Found, ... )      |
++--------------------------------------------------------+
+                         │
+                         ▼
++--------------------------------------------------------+
+|   Crash wird ausgelöst und mit Session-ID erfasst      |
+|    → inklusive Fehlerart, Traceback, Timestamp         |
++--------------------------------------------------------+
+                         │
+                         ▼
++--------------------------------------------------------+
+|   Crash-Details werden im lokalen Log gespeichert      |
+|    → Sessionstruktur mit Crash-Metriken aktualisiert   |
++--------------------------------------------------------+
+                         │
+                         ▼
++--------------------------------------------------------+
+|   Realtime-Übertragung an CAIR4 Twin Monitoring System |
+|  → Twin erkennt Incident & wichtig u.a. bei  Hochrisiko|
++--------------------------------------------------------+
+                         │
+                         ▼
++--------------------------------------------------------+
+|   Bei kritischem Ereignis: Sofortige Warnmeldung       |
+|    (z. B. E-Mail, SMS, Webhook an Admin-Team)          |
++--------------------------------------------------------+
+
+Achtung bei Hochrisiko-KI:
+                         ▼
++--------------------------------------------------------+
+| **Artikel 73 EU AI Act**                               |
+| Anbieter müssen sicherstellen, dass KI-Systeme auch    |
+| nach dem Inverkehrbringen **überwacht** werden.        |
+| Schwere Vorfälle müssen dokumentiert und den Behörden  |
+| ggf. gemeldet werden.                                  |
++--------------------------------------------------------+

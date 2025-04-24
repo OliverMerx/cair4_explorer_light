@@ -1,0 +1,45 @@
+
+ASCII-Grafik zum Use Case "Halluzinatiionen":
+
+
++============================================================+
+|         🔍 Ursachen für Halluzinationen in LLMs            |
++============================================================+
+|                                                            |
+|   🧠 LLM gibt plausible, aber faktisch falsche Antwort     |
+|                                                            |
+|   Ursachen (vereinfachte Darstellung):                     |
+|                                                            |
+|   +--------------------+                                   |
+|   | 1. 🧩 Tokenisierung | -> Zerstückelung komplexer       |
+|   +--------------------+     Begriffe führt zu             |
+|                              Sinnverlust (z. B. "Verord-   |
+|                              nungsverfahren")              |
+|                                                            |
+|   +--------------------------+                             |
+|   | 2. 🎲 Wahrscheinlichkeiten | -> Modell errät das       |
+|   +--------------------------+    nächste Wort auf         |
+|                                Basis von Wahrscheinlich-   |
+|                                keiten – nicht Fakten       |
+|                                                            |
+|   +------------------------+                               |
+|   | 3. 📚 Trainingsdaten     | -> Falsch oder veraltet,    |
+|   +------------------------+   enthalten keine echten      |
+|                                Quellen oder Widersprüche   |
+|                                                            |
+|   +-----------------------+                                |
+|   | 4. 🧭 Fehlender Kontext | -> Kein Zugriff auf externe  |
+|   +-----------------------+    Echtzeitdaten oder          |
+|                                enaue Spezifika             |
+|                                                            |
+|   +-------------------------+                              |
+|   | 5. ⚖️ Prompt-Design      | -> Ungenaue oder mehr-      |
+|   +-------------------------+   deutige Fragen führen      |
+|                                 zu "kreativen" Antworten   |
+|                                                            |
++------------------------------------------------------------+
+|  🛡️ Regulatorisch relevant (EU AI Act):                    |
+|     - Art. 10 (Datenqualität)                              |
+|     - Art. 13 (Transparenz)                                |
+|     - Art. 84 (Fehlverhalten dokumentieren)                |
++============================================================+

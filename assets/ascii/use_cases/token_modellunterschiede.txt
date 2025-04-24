@@ -1,0 +1,49 @@
+ASCII-Grafik zum Use Case "Token-Modellunterschiede":
+
+
+         Eingabe: "Donaudampfschifffahrtsgesellschaftskapitän"
+
+                                 │
+                                 ▼
+ ┌──────────────────────────────────────────────────────────────────────┐
+ │                              Tokenisierung                           │
+ └──────────────────────────────────────────────────────────────────────┘
+        │                            │                           │
+        ▼                            ▼                           ▼
+┌─────────────────────┐   ┌────────────────────────┐   ┌────────────────────────┐
+│   Modell A (kurze   │   │  Modell B (semantisch) │   │ Modell C (technisch)   │
+│   Tokens)           │   │  fusioniert Begriffe   │   │  zerlegt feingranular  │
+│---------------------│   │------------------------│   │------------------------│
+│ "Donau"             │   │ "Donaudampf"           │   │ "Do", "nau", "dampf"   │
+│ "dampf"             │   │ "schifffahrtsgesell"   │   │ "schiff", "fahrt"      │
+│ "schiff", "fahrt"   │   │ "schaftskapitän"       │   │ "s", "gesell"          │
+│ "s", "gesell..."    │   │ ➤ Weniger Tokens       │   │ ➤ Viele Einzelteile    │
+│ ...                 │   │ ➤ Stärkere Bedeutung   │   │ ➤ Präzise Steuerung    │
+└─────────────────────┘   └────────────────────────┘   └────────────────────────┘
+
+       [ Token-Anzahl: hoch         Token-Anzahl: mittel         Token-Anzahl: hoch ]
+
+        🔍 Unterschiedliche Zerlegung ➞ beeinflusst Kosten, Sinn & Verhalten
+        🧠 Einfluss auf Bedeutung & Kontextverständnis
+        💬 Unterschiedliches Antwortverhalten bei gleicher Eingabe möglich
+
+──────────────────────────────────────────────────────────────────────────────
+📚 Regulatorische Aspekte:
+➤ Tokenisierung ist Grundlage der semantischen Verarbeitung
+➤ Variierende Aufteilung = variierende Modellantworten
+➤ Grundlage zur Erklärung des Antwortverhaltens
+➤ Transparenz & Rückverfolgbarkeit durch Visualisierung 
+
+
+ ➤ KI hat ein „Wortverständnis“ im klassischen Sinn            |
+|   ➤ Sinn entsteht durch Kombination von Token                |
+|                                                              |
+|   Unterschiede je Modell (GPT vs. Claude vs. Gemini):        |
+|   - Token-Länge                                              |
+|   - Split-Muster (subword units)                             |
+|   - Encoding-Strategie                                       |
+|                                                              |
+|   Tokens = Basis für:                                        |
+|   - Semantik                                                 |
+|   - Preistransparenz (API-Abrechnung)                        |
+|   - Antwortgrenze (max. Token-Limit)         

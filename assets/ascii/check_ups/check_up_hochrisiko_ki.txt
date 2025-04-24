@@ -1,0 +1,54 @@
+ASCII-Checkup für "Hochrisiko-KI":
+
++====================================================================+
+|               ASCII-CHECKLISTE – HOCHRISIKO-KI-SYSTEME            |
+|                      gemäß Art. 6 i.V.m. Anh. I & III             |
++====================================================================+
+
+[✓] ALLGEMEINE KRITERIEN
+ ────────────────────────────────────────────────────────────────────
+ ☐ KI-System fällt unter Anhang I (Produkt/Sicherheitsbauteil)?
+ ☐ KI-System erfüllt eine Funktion gem. Anhang III (Anwendung)?
+ ☐ Keine Ausnahme nach Art. 6 Abs. 3 (ergänzende menschliche Tätigkeit)?
+
+[✓] VERBOTENE SYSTEME (Art. 5 KI-VO)
+ ────────────────────────────────────────────────────────────────────
+ ☐ Ausnutzung von Schutzbedürftigkeit / Vulnerabilität?
+ ☐ Subtile Beeinflussung mit Verhaltensänderung?
+ ☐ Soziale Bewertung / Scoring?
+
+[✓] SPEZIFISCHE HOCHRISIKO-KATEGORIEN (Anhänge)
+ ────────────────────────────────────────────────────────────────────
+ ☐ Biometrische Echtzeit-Fernidentifikation (Art. 5 Abs. 1 h)
+ ☐ Emotionserkennung / biometrische Kategorisierung?
+ ☐ Kritische digitale Infrastruktur (Energie, Straßen, Wasser)?
+ ☐ Bildung / Prüfung (z. B. Überwachung, Ergebnisbewertung)?
+ ☐ Personal (Bewerbung, Auswahl, Leistungsbewertung)?
+ ☐ Öffentliche Leistungen (z. B. Sozialleistungen, Kreditwürdigkeitsprüfung)?
+ ☐ Strafverfolgung (z. B. Risikobewertung, Lügendetektoren)?
+ ☐ Migration/Asyl (z. B. Risikobewertung, Profiling)?
+ ☐ Gerichtsbarkeit/Demokratie (z. B. Einfluss auf Wahlen)?
+
+[✓] BEISPIELE ZULÄSSIGER ANWENDUNGEN (Erwägungsgrund 53)
+ ────────────────────────────────────────────────────────────────────
+ ☐ Dokument-Kategorisierung / Texterkennung?
+ ☐ Datenstrukturierung / Duplikaterkennung?
+ ☐ Sprachoptimierung / KI-gestützte Übersetzung?
+ ☐ Prüfabweichungen erkennen (z. B. Lehrerbenotung)?
+
+[✓] ANHANG I – PRODUKTE MIT HOCHRISIKO
+ ────────────────────────────────────────────────────────────────────
+ ☐ Maschinen, Spielzeuge, Aufzüge, Boote, Schutzausrüstung?
+ ☐ Medizinprodukte / In-vitro-Diagnostik?
+ ☐ Funkanlagen, Druckgeräte, Gasbrenner, Fahrzeuge, Bahn?
+ ☐ Luftfahrt, Interoperabilität, Schiffsausrüstung?
+
+[✓] FAZIT & HANDLUNGSBEDARF
+ ────────────────────────────────────────────────────────────────────
+ ☐ Hochrisiko-Einstufung nach Art. 6 KI-VO gegeben?
+ ☐ Konformitätsbewertung erforderlich?
+ ☐ Dokumentation und Monitoring gemäß Kapitel 4 KI-VO einleiten?
+
++====================================================================+
+| Hinweis: Bei mehreren Markierungen ist Hochrisiko-Wahrscheinlichkeit hoch |
++====================================================================+

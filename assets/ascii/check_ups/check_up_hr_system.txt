@@ -1,0 +1,13 @@
+ASCII-Checkup für "HR-System & Hochrisiko":
+
++------------------------------------------------------+
+|    Blacklist HR-Systeme bekannt?                     |
+|     - z. B. Gesichtserkennung zur Bewertung          |
+|     - Emotionserkennung in Bewerbungsgesprächen      |
++------------------------------------------------------+
+|    Bewertung der Auswirkungen erfolgt?               |
+|     - Verstoßpotenzial klar erkannt                  |
++------------------------------------------------------+
+|    System wurde deaktiviert oder nicht eingeführt?   |
+|     - Alternative Lösungen geprüft                   |
++------------------------------------------------------+

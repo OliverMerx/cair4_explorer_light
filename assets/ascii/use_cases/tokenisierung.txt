@@ -1,0 +1,29 @@
+ASCII-Grafik zum Use Case "Tokenisierung":
+
+
++--------------------------------------------------+       ┌────────────────────────────────────────────┐
+| Eingabe:                                         |       |   TOKENISIERUNG & REGULATORIK              |
+| "Donaudampfschiffahrtsgesellschaftskapitän"      |       └────────────────────────────────────────────┘
++--------------------------------------------------+       ▶ Erklärbarkeit
+                         |                                 "Wie kam es zur Antwort?"
+                         v
++--------------------------------------------------+       ▶ Trainingsdaten
+| Tokens:                                          |       Qualität & Struktur beeinflussen Bias
+| ["Donau", "dampf", "schiff",                     |       
+|  "fahrts", "gesellschafts", "kapitän"]           |       ▶ Transparenz:
++--------------------------------------------------+       Nutzer muss Verständnis haben, wie KI denkt
+                         |
+                         v                                 ▶ Wichtig:
++--------------------------------------------------+       Tokenisierung beeinflusst Systemverhalten
+| Semantische Rekonstruktion:                      |
+| "Kapitän der Schifffahrtsgesellschaft auf der    |
+| Donau"                                           |       ▶ Multilinguale Fairness
++--------------------------------------------------+       Token-Limits & Splits können Sprachen benachteiligen
+                         |
+                         v
++--------------------------------------------------+
+| KI kann:                                         |
+| - Wortteile zusammensetzen                       |
+| - Bedeutung herleiten                            |
+| - sogar neue Begriffe interpretieren             |
++--------------------------------------------------+

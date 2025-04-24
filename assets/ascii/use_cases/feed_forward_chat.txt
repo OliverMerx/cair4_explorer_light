@@ -1,0 +1,44 @@
+
+ASCII-Grafik zum Use Case "Feed-Forward-Chat":
+
+
++----------------------------+           ┌───────────────────────────────────────────────┐
+| 1. Benutzereingabe         |           | Direkte Interaktion mit einem KI-System.      |
+|    (Prompt)                |──────────▶| Laut EU AI Act Art. 3 Nr. 1:                  |
++----------------------------+           | → Eingabe durch natürliche Personen           |
+                                         | → über eine Mensch-Maschine-Schnittstelle     |
+                                         └───────────────────────────────────────────────┘
+
+            │
+            ▼
++----------------------------+           ┌───────────────────────────────────────────────┐
+| 2. Weiterleitung an        |           | Der Prompt wird an ein generatives Modell     |
+|    Sprachmodell (LLM)      |           | (z. B. GPT, Claude, Mistral) übermittelt.     |
++----------------------------+           |                                               |
+                                         | ⚠️ Kein Zugriff auf vorherige Prompts.        |
+                                         └───────────────────────────────────────────────┘
+
+            │
+            ▼
++----------------------------+           ┌───────────────────────────────────────────────┐
+| 3. Antwort-Generierung     |           | KI trifft autonome Entscheidung anhand        |
+|    (ohne Kontextgedächtnis)|           | des gegebenen Inputs → Ableitung aus Daten    |
++----------------------------+           | ohne fest einprogrammierten Regeln.           |
+                                         |                                               |
+                                         | Typisches Merkmal von KI-Systemen gemäß AI Act|
+                                         └───────────────────────────────────────────────┘
+
+            │
+            ▼
++----------------------------+           ┌───────────────────────────────────────────────┐
+| 4. Antwort wird            |           | Kein Memory, keine Personalisierung –         |
+|    zurückgegeben           |           | jede Interaktion ist isoliert.                |
++----------------------------+           | Daher: "Stateless" (zustandslos).             |
+                                         └───────────────────────────────────────────────┘
+
+            │
+            ▼
++----------------------------+           ┌───────────────────────────────────────────────┐
+| 5. Anzeige im Interface    |           | Nutzer sieht die Ausgabe – keine Historie,    |
+|    (UI / Webseite / App)   |           | kein Verlauf → volle Transparenz möglich      |
++----------------------------+           └───────────────────────────────────────────────┘

@@ -1,0 +1,62 @@
+ASCII-Checkup für "Organisation & Management":
+
+1. Step
++------------------------------------------------------+
+|   KI-Strategie vorhanden?                           |
+|    - Zieldefinition klar                            |
+|    - Governance-Mechanismen definiert               |
+|    - Verantwortlichkeiten festgelegt                |
++------------------------------------------------------+
+|   KI-Verantwortliche benannt?                       |
+|    - Rollen wie KI-Officer, DSB, IT-Leitung besetzt |
+|    - Eskalationswege definiert                      |
++------------------------------------------------------+
+|   Prozessstruktur vorhanden?                        |
+|    - KI-bezogene Prozesse dokumentiert              |
+|    - Update-Zyklen etabliert                        |
++------------------------------------------------------+
+
+2. Step
++------------------------------------------------------+
+|   Risikokategorien nach KI-VO geprüft?               |
+|    - Hochrisiko vs. nicht reguliert identifiziert    |
+|    - Dokumentationspflichten bekannt                 |
++------------------------------------------------------+
+|   Datenschutzfolgenabschätzung (DSFA) durchgeführt?  |
+|    - Bei Hochrisiko-KI zwingend erforderlich         |
+|    - Ergebnisse dokumentiert                         |
++------------------------------------------------------+
+|   Auditfähigkeit gegeben?                            |
+|    - Logs, Entscheidungswege, Trainingsdaten         |
+|    - Nachvollziehbarkeit der Systemfunktion          |
++------------------------------------------------------+
+
+3. Step
+
++------------------------------------------------------+
+|  Anbieter-Rolle geklärt?                             |
+|    - Interne oder externe Entwicklung?               |
+|    - Verantwortung für Konformität?                  |
++------------------------------------------------------+
+|  Weitere Rollen definiert?                           |
+|    - z. B. Betreiber, Importeur, Händler             |
+|    - Aufgaben klar dokumentiert                      |
++------------------------------------------------------+
+|  Technische Dokumentation gepflegt?                  |
+|    - Konformitätsprüfung, Risikoabschätzung etc.     |
++------------------------------------------------------+
+
+4. Step
+
++------------------------------------------------------+
+|    Einsatz verbotener KI ausgeschlossen?             |
+|    - z. B. Social Scoring, manipulative Systeme      |
+|    - Prüfung dokumentiert                            |
++------------------------------------------------------+
+|    Risikoanalyse abgeschlossen?                      |
+|    - Identifikation potenzieller Schäden             |
+|    - Schutzmaßnahmen definiert                       |
++------------------------------------------------------+
+|    Interne Freigabeprozesse vorhanden?               |
+|    - Bei hohem Risiko Genehmigung erforderlich       |
++------------------------------------------------------+

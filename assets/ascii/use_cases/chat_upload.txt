@@ -1,0 +1,24 @@
+
+ASCII-Grafik zum Use Case "Chat mit Upload":
+
++--------------------------------------------------------------+
+|       📥 Upload eines Dokuments (z. B. Vertrag, Bericht)      |
++--------------------------------------------------------------+
+                                │
+                                ▼
+        📃 Dokument wird eingelesen und in Text umgewandelt
+                                │
+                                ▼
+      📎 Der vollständige Text wird *einmalig* an die KI übergeben
+                                │
+                                ▼
+        🤖 Frage des Nutzers + hochgeladener Kontext → Anfrage
+                                │
+                                ▼
+         💬 KI analysiert die Eingabe und erzeugt eine Antwort
+                                │
+                                ▼
+              📤 Dokument wird **nicht gespeichert**
+                                │
+                                ▼
+    🗑️ Nach der Antwort wird der Kontext **verworfen** – keine Spur

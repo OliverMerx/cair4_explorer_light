@@ -1,0 +1,112 @@
+ASCII-Grafik zu den verschiedenen Funktion von Dr. Know:
+
+##########
+# 1. Home:
+##########
+
+               ╔════════════════════════════════════════════╗
+               ║              DR. KNOW – STARTSEITE         ║
+               ║   Einstieg in regulatorisches KI-Wissen    ║
+               ╚════════════════════════════════════════════╝
+                                    │
+                                    ▼
+              ╔═════════════════════════════════════════╗
+              ║   ➤ FAQ & Erklärungen zu zentralen KI-  ║
+              ║     Begriffen, Gesetzen, Technologien   ║
+              ╚═════════════════════════════════════════╝
+                                    │
+                                    ▼
+              ╔═════════════════════════════════════════╗
+              ║   ➤ Direkte Fragen an Dr. Know stellen  ║
+              ║     (Freitext + Modellauswahl)          ║
+              ╚═════════════════════════════════════════╝
+                                    │
+                                    ▼
+              ╔═════════════════════════════════════════╗
+              ║   ➤ Suche nach relevanten Use Cases     ║
+              ║     → Exploration über Filter & Themen  ║
+              ╚═════════════════════════════════════════╝
+
+#################
+# 2. Checklisten:
+#################
+
+               ╔════════════════════════════════════════════╗
+               ║              DR. KNOW – KI-COPILOT         ║
+               ║     für regulatorisches & erklärbares KI-  ║
+               ║         Wissen im CAIR4-Framework          ║
+               ╚════════════════════════════════════════════╝
+
+                                │
+                                ▼
+                ╔═════════════════════════════╗
+                ║   CHECKLISTEN-VIEW          ║
+                ║  (lokal + erklärbar)        ║
+                ╚═════════════════════════════╝
+                                │
+         ┌──────────────────────┼───────────────────────┐
+         ▼                      ▼                       ▼
+╔════════════════╗     ╔═══════════════════════╗  ╔════════════════╗
+║ Einzelcheck    ║     ║ Fortsetzungs-Chat     ║  ║ Websuche bei   ║
+║ Erklärung      ║     ║ (Verlauf je Check)    ║  ║ Unklarheiten   ║
+╚════════════════╝     ╚═══════════════════════╝  ╚════════════════╝
+                                                    │
+                                                    ▼
+                                            ╔════════════════════╗
+                                            ║ DUCKDUCKGO-INTEGR. ║
+                                            ║ + GPT-Antwort auf  ║
+                                            ║ Web-Kontext        ║
+                                            ╚════════════════════╝
+
+                                │
+                                ▼
+                ╔═════════════════════════════════╗
+                ║      VERGLEICH MEHRERER         ║
+                ║        CHECKLISTEN              ║
+                ║ (Meta-Analyse / Zusammenspiel)  ║
+                ╚═════════════════════════════════╝
+                                │
+                                ▼
+                 ╔══════════════════════════════╗
+                 ║ Zukünftige Erweiterungen:    ║
+                 ║ - Tagging / Filterung        ║
+                 ║ - Mapping auf AI Act Artikel ║
+                 ║ - Clustering / Empfehlungen  ║
+                 ╚══════════════════════════════╝
+
+                                │
+                                ▼
+              ╔═════════════════════════════════════════╗
+              ║   WISSENSMATRIX AUS REGULATORISCHEN     ║
+              ║   ANFORDERUNGEN, DOMÄNEN & USE CASES    ║
+              ║        → für strategische Insights      ║
+              ╚═════════════════════════════════════════╝
+
+
+###############
+# 3. Use Cases:
+###############
+
+               ╔════════════════════════════════════════════╗
+               ║              DR. KNOW – STARTSEITE         ║
+               ║   Einstieg in regulatorisches KI-Wissen    ║
+               ╚════════════════════════════════════════════╝
+                                    │
+                                    ▼
+              ╔═════════════════════════════════════════╗
+              ║   ➤ FAQ & Erklärungen zu zentralen KI-  ║
+              ║     Begriffen, Gesetzen, Technologien   ║
+              ╚═════════════════════════════════════════╝
+                                    │
+                                    ▼
+              ╔═════════════════════════════════════════╗
+              ║   ➤ Direkte Fragen an Dr. Know stellen  ║
+              ║     (Freitext + Modellauswahl)          ║
+              ╚═════════════════════════════════════════╝
+                                    │
+                                    ▼
+              ╔═════════════════════════════════════════╗
+              ║   ➤ Suche nach relevanten Use Cases     ║
+              ║     → Exploration über Filter & Themen  ║
+              ╚═════════════════════════════════════════╝
+ 

@@ -1,0 +1,42 @@
+ASCII-Grafik zum Use Case "Website Crawler (Scraping)":
+
++-----------------------------------------------------------+
+|  Nutzer wählt eine Website oder gibt eine URL manuell ein |
++-----------------------------------------------------------+
+                │
+                ▼
+  🔎 Crawler lädt HTML-Inhalte der gewählten Webseite
+                │
+                ▼
++-----------------------------------------------------------+
+|  HTML enthält viel „Ballast“ (Links, Menü, Werbung etc.)  |
+|  → Parser (z. B. BeautifulSoup) extrahieren den Haupttext |
+|  → Nur relevante Textsegmente werden weiterverwendet      |
++-----------------------------------------------------------+
+                │
+                ▼
+  🧾 Reiner Text wird extrahiert & bereinigt
+                │
+                ▼
+  🧠 Vektorisierung der Inhalte (z. B. TF-IDF oder Embedding)
+                │
+                ▼
++-----------------------------------------------------------+
+| Chatfunktion mit RAG (Retrieval-Augmented Generation)     |
+|   → Nutzer stellt Fragen zum Webseiteninhalt              |
+|   → Antworten basieren auf den extrahierten Chunks        |
++-----------------------------------------------------------+
+
+📌 Unterschiede zwischen den Seiten:
+
+  • **Tagesschau.de**  
+    → Klar strukturierter Artikel  
+    → Keine weiterführenden Links  
+
+  • **CAIR4-Artikel**  
+    → Fachartikel mit tieferem Kontext  
+    → Enthält Quellenverweise & Zusatzlinks  
+
+🎯 Ziel:
+Testen, wie sich Linkstruktur und Seitentiefe auf die Antwortqualität
+des RAG-Systems auswirken – bei gleichbleibendem Frageformat.

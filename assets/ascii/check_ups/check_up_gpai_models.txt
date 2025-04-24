@@ -1,0 +1,67 @@
+ASCII-Checkup für "GPAI-Modelle/KI-Modelle mit allgemeinem Verwendungszweck i.S.v Art. 3 Nr. 63 EU AI Act":
+
+╔══════════════════════════════════════════════════════════════════╗
+║    CHECKLISTE: GENERAL-PURPOSE AI (GPAI) – AI ACT COMPLIANCE    ║
+╚══════════════════════════════════════════════════════════════════╝
+
+1. Definition und Klassifikation
+──────────────────────────────────────────────────────────────────
+[ ] Handelt es sich um ein Modell mit signifikanter Generalität?      
+[ ] Kann das Modell kompetent eine Vielzahl verschiedener Aufgaben erfüllen?
+[ ] Hat das Modell eine Trainings-Compute ≥ 10^22 FLOP?
+[ ] Kann das Modell Text und/oder Bilder generieren?
+
+2. Modell-Typ & Versionierung
+──────────────────────────────────────────────────────────────────
+[ ] Wurde das Modell in einem großen Pre-Training-Lauf entwickelt?
+[ ] Handelt es sich um ein neues Modell oder nur eine neue Version?
+[ ] Bei Modifikationen: Compute > 1/3 von 10^22 FLOP?
+
+3. Anbieterdefinition und Verantwortung
+──────────────────────────────────────────────────────────────────
+[ ] Wer ist der primäre Anbieter des GPAI-Modells?
+[ ] Wurde das Modell durch Dritte entwickelt oder modifiziert?
+[ ] Wird das Modell weitergegeben oder in Systemen integriert?
+
+4. Systemisches Risiko (nur bei Risiko-Modellen)
+──────────────────────────────────────────────────────────────────
+[ ] Ist das Modell als "GPAI mit systemischem Risiko" einzustufen?
+[ ] Übersteigt das Modell 10^25 FLOP kumulativ?
+[ ] Wurde die Risikobewertung und -minderung (Art. 55 AI Act) durchgeführt?
+
+5. Marktzugang und Open Source
+──────────────────────────────────────────────────────────────────
+[ ] Wird das Modell in der EU in Verkehr gebracht?
+[ ] Erfolgt dies durch API, Download, Integration, etc.?
+[ ] Wird das Modell unter Open-Source-Lizenz veröffentlicht?
+[ ] Sind Architektur, Gewichtungen & Nutzungsinfos öffentlich?
+
+6. Dokumentationspflichten (Art. 53 AI Act)
+──────────────────────────────────────────────────────────────────
+[ ] Technische Dokumentation vorhanden?
+[ ] Copyright-Policy erstellt?
+[ ] Trainingsdaten-Zusammenfassung veröffentlicht?
+
+7. Übergangsfristen & Umsetzung
+──────────────────────────────────────────────────────────────────
+[ ] Modell bereits vor dem 02.08.2025 im Umlauf?
+[ ] Umsetzung aller Pflichten bis spätestens 02.08.2027 geplant?
+
+8. Code of Practice & Transparenz
+──────────────────────────────────────────────────────────────────
+[ ] Gehört der Anbieter einem offiziellen Code of Practice an?
+[ ] Wird dies als Nachweis für die Einhaltung genutzt?
+
+9. Meldepflichten (Art. 52 AI Act)
+──────────────────────────────────────────────────────────────────
+[ ] Wurde die Kommission informiert, wenn Compute-Threshold erreicht?
+[ ] Wurde die Methode zur Compute-Schätzung dokumentiert?
+
+10. Durchsetzung und Kontrolle
+──────────────────────────────────────────────────────────────────
+[ ] Ist der Anbieter vorbereitet auf Informationsanfragen?
+[ ] Liegen Mechanismen für die Zusammenarbeit mit der AI-Behörde vor?
+
+╔══════════════════════════════════════════════════════════════════╗
+║      Quelle: EU-Kommission, GPAI Guidelines Entwurf, 2025        ║
+╚══════════════════════════════════════════════════════════════════╝
