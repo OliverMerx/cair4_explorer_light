@@ -6,7 +6,7 @@ regulatorischen Impact in einer modularen Streamlit-Oberfläche
 – ganz ohne Login oder Backend-Abhängigkeiten wie in der Vollversion
 (diese hat über 80 Use Cases, Stand April 2025).
 
-Die Light-Version enthält zwar die gesamten Inhalte der Config-Datei
+Die Light-Version enthält zwar die gesamten Use Case Beschreibungen der Config-Datei
 (für Navigation und Übersichten), es sind jedoch nicht alle Pythen-
 Dateien der Use Cases mit integriert, da diese aufgrund der Komplexität
 das Installieren zusätzlicher Python-Libs und somit ein einfaches 
