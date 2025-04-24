@@ -1,4 +1,4 @@
-# CAIR4 Use Case Explorer – Light Edition 🚀
+# CAIR4 Use Case Explorer – Light Edition 
 
 Willkommen zur **Light-Version des CAIR4 Use Case Explorers**.  
 Diese Anwendung demonstriert ausgewählte KI-Use-Cases und ihren
@@ -17,17 +17,19 @@ Mit ihr können auch eigene CAIR4-Codes entwickelt und verprobt werden.
 
 ---
 
-## 🔍 Features
+## Features
 
-- 📚 **Use Case Explorer** mit selektierten KI-Beispielen
-- 🔐 **Zugriff ohne Login** (Gastmodus)
-- 📦 **Leichtgewichtig**: Nur essenzielle Module & Views
-- 📄 **Rechtliche Referenzen & Kapitelstruktur**
-- 🧠 **Prompt-basierte KI-Analyse** (OpenAI, Gemini, Mistral etc.)
+- **Use Case Explorer** mit selektierten KI-Beispielen
+- **Zugriff ohne Login** (Gastmodus: Vollversion mit Role Based Access)
+- **Leichtgewichtig**: Nur essenzielle Module & Views
+- **Rechtliche Referenzen, Analysen & Kapitelstruktur**
+- **ASCII-Checklisten, ASCII-Use-Case-Descriptions**
+- **Dr. Know: Legal Expert Chat** (in Vollversion)
+- **Prompt-basierte KI-Analyse** (OpenAI, Gemini, Mistral etc.)
 
 ---
 
-## 🧱 Projektstruktur
+## Projektstruktur
 
 ```bash
 CAIR4_light/
