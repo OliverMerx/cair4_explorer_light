@@ -3,7 +3,8 @@
 Willkommen zur **Light-Version des CAIR4 Use Case Explorers**.  
 Diese Anwendung demonstriert ausgewählte KI-Use-Cases und ihren
 regulatorischen Impact in einer modularen Streamlit-Oberfläche 
-– ganz ohne Login oder Backend-Abhängigkeiten wie in der Vollversion.
+– ganz ohne Login oder Backend-Abhängigkeiten wie in der Vollversion
+(diese hat über 80 Use Cases, Stand April 2025).
 
 Die Light-Version enthält zwar die gesamten Inhalte der Config-Datei
 (für Navigation und Übersichten), es sind jedoch nicht alle Pythen-
