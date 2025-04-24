@@ -7,8 +7,8 @@ regulatorischen Impact in einer modularen Streamlit-Oberfläche
 (diese hat über 80 Use Cases, Stand April 2025).
 
 Die Light-Version enthält zwar die gesamten Use Case Beschreibungen der Config-Datei
-(für Navigation und Übersichten), es sind jedoch nicht alle Pythen-
-Dateien der Use Cases mit integriert, da diese aufgrund der Komplexität
+(für Navigation und Übersichten), es sind jedoch nicht alle Python-
+Dateien der Use Cases mit integriert. Dies würde aufgrund der Komplexität
 das Installieren zusätzlicher Python-Libs und somit ein einfaches 
 initiales Setup erheblich erschweren würden. 
 
