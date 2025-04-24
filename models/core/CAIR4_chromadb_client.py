@@ -27,36 +27,50 @@ Dieses Modul wird insbesondere vom `CAIR4_collection_client.py` aber auch von an
 
 =================================================
 """
-import os
-from pylibs.chromadb_lib import CHROMA_AVAILABLE, initialize_chroma_db
-
 # === 1️⃣ Initialisierung nur, wenn chromadb verfügbar ist
-if CHROMA_AVAILABLE:
-    chroma_client = initialize_chroma_db()
-else:
-    chroma_client = None  # oder MockClient, je nach Anwendungsfall
+try:
+    import chromadb
+    Client = chromadb.PersistentClient
+    Settings = chromadb.Settings
+    chroma_client = None
+    CHROMA_AVAILABLE = True
+except (ImportError, RuntimeError, Exception) as e:
+    print("⚠️ chromadb konnte nicht geladen werden:", e)
+    chroma_client = None
+    Client = None
+    Settings = None
+    CHROMA_AVAILABLE = False
 
-# === 2️⃣ Optional: Embedding-Modell laden (funktioniert unabhängig)
-from sentence_transformers import SentenceTransformer
-embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+DEFAULT_CHROMA_PATH = "./chroma_db"
+PYLIBS_DIR = "pylibs"
+COLLECTIONS = {}
 
-# === 3️⃣ Collection abrufen oder erstellen ===
-def get_or_create_collection(collection_name):
-    """Holt oder erstellt eine ChromaDB-Collection."""
-
-    if not CHROMA_AVAILABLE or chroma_client is None:
-        print("❌ ChromaDB ist nicht verfügbar. Collection kann nicht geladen werden.")
+def initialize_chroma_db():
+    global chroma_client
+    if not CHROMA_AVAILABLE:
+        print("⚠️ ChromaDB nicht verfügbar – Initialisierung wird übersprungen.")
         return None
+
+    import os  # nachziehen, falls nötig
+    from pylibs.streamlit_lib import streamlit as st
+
+    if "chroma_name" not in st.session_state:
+        st.session_state["chroma_name"] = DEFAULT_CHROMA_PATH
+
+    db_path = st.session_state["chroma_name"]
+
+    if not os.path.exists(db_path):
+        os.makedirs(db_path)
+        print(f"📁 ChromaDB-Verzeichnis erstellt: {db_path}")
+    else:
+        print(f"✅ ChromaDB-Verzeichnis gefunden: {db_path}")
 
     try:
-        collections = [col.name for col in chroma_client.list_collections()]
-        if collection_name in collections:
-            print(f"✅ Collection '{collection_name}' existiert bereits. Wird geladen.")
-            return chroma_client.get_collection(collection_name)
-
-        print(f"⚠️ Collection '{collection_name}' nicht gefunden. Erstelle neue...")
-        return chroma_client.create_collection(name=collection_name)
-
+        chroma_client = Client(path=db_path, settings=Settings(anonymized_telemetry=False))
+        print("✅ ChromaDB erfolgreich initialisiert.")
     except Exception as e:
-        print(f"❌ Fehler beim Zugriff auf ChromaDB: {e}")
-        return None
+        print(f"❌ Fehler beim Initialisieren von ChromaDB: {e}")
+        chroma_client = None
+
+    return chroma_client
+
