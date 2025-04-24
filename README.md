@@ -8,13 +8,16 @@ regulatorischen Impact in einer modularen Streamlit-Oberfläche
 
 Die Light-Version enthält zwar die gesamten Use Case Beschreibungen der Config-Datei
 (für Navigation und Übersichten), es sind jedoch nicht alle Python-
-Dateien der Use Cases mit integriert. Dies würde aufgrund der Komplexität
-das Installieren zusätzlicher Python-Libs und somit ein einfaches 
-initiales Setup erheblich erschweren würden. 
+Dateien der in den Beschreibungen enthaltenen Use Cases mit integriert. 
 
 Die Light-Version ist gedacht für Demos, Tests und zum Einstieg in die CAIR4-Logik.
-
 Mit ihr können auch eigene CAIR4-Codes entwickelt und verprobt werden. 
+
+## 📬 Kontakt
+
+Für Rückfragen, Feedback oder Interesse an der Vollversion:  
+https://www.linkedin.com/in/oliver-m-merx-83777b/
+
 
 ---
 
@@ -49,13 +52,6 @@ CAIR4_light/
 ## 📜 Lizenz
 
 Dieses Projekt steht unter der MIT-Lizenz – siehe [MIT_LICENSE](./MIT_LICENSE).
-
-## 📬 Kontakt
-
-Für Rückfragen, Feedback oder Interesse an der Vollversion:  
-📧 oliver.merx@protonmail.com  
-🔗 [LinkedIn-Profil](https://www.linkedin.com/in/oliver-m-merx-83777b/)
-
 
 # 1. Repository klonen
 git clone https://github.com/OliverMerx/cair4_light.git
