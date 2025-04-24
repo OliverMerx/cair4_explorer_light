@@ -25,7 +25,6 @@ korrekt initialisiert sind, bevor die Anwendung startet.
 # 🛠 3rd Party Libraries
 from pylibs.os_lib import os
 from pylibs.streamlit_lib import streamlit as st
-from pylibs.chromadb_lib import chromadb
 
 try:
     import chromadb
