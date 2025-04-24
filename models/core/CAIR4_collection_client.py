@@ -26,26 +26,24 @@ Dieses Modul arbeitet mit `chroma_db_client.py` zusammen, das die eigentliche Ch
 =================================================
 """
 
-from models.core.CAIR4_chromadb_client import get_or_create_collection  # Verbindung zu ChromaDB-Client
+try:
+    from pylibs.chromadb_lib import CHROMA_AVAILABLE, initialize_chroma_db
+    chroma_client = initialize_chroma_db() if CHROMA_AVAILABLE else None
+except Exception as e:
+    print(f"❌ ChromaDB konnte nicht geladen werden: {e}")
+    chroma_client = None
+    CHROMA_AVAILABLE = False
 
-def list_collection_contents(collection_name):
-    """
-    Listet alle Dokumente einer ChromaDB-Collection auf.
-    """
+def get_or_create_collection(collection_name):
+    if not CHROMA_AVAILABLE or chroma_client is None:
+        print("⚠️ ChromaDB nicht verfügbar – Collection kann nicht erstellt werden.")
+        return None
+
     try:
-        collection = get_or_create_collection(collection_name)
-        
-        results = collection.get(include=["documents", "metadatas"])  # ✅ Holt alle Dokumente + Metadaten
-
-        if not results or "documents" not in results or not results["documents"]:
-            print(f"⚠️ Keine Ergebnisse für Collection '{collection_name}'.")
-            return []
-        
-        return [
-            {"name": meta.get("source", "Unknown"), "content": doc, "pages": meta.get("page", 1)}
-            for doc, meta in zip(results["documents"], results["metadatas"])
-        ]
-
+        collections = [col.name for col in chroma_client.list_collections()]
+        if collection_name in collections:
+            return chroma_client.get_collection(collection_name)
+        return chroma_client.create_collection(name=collection_name)
     except Exception as e:
-        print(f"❌ Fehler beim Abrufen der Collection-Inhalte: {e}")
-        return []
+        print(f"❌ Fehler bei ChromaDB-Zugriff: {e}")
+        return None
