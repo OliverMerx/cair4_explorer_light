@@ -178,25 +178,6 @@ def search_modal():
     render_search_modal(st.session_state.get("collections", {}))
     #render_pdf_vectorizer_view()
 
-@st.dialog(f"🧭 CAIR4 Allgemeine Informationen:", width="large")
-def cair4_modal():
-    st.markdown("""
-        <style>
-        div[data-testid="stDialog"] div[role="dialog"]:has(.chat-dialog) {
-            width: 80vw;
-            height: 90vh;
-            overflow-y: hidden!important;
-        }
-        div[data-testid="stDialog"] div[role="dialog"]::-webkit-scrollbar-track {
-            margin-left: -10px!important;  /* 👈 verschiebt die Scrollbar nach innen */;
-            left:-10px!important;
-        }
-        div[data-testid="stDialog"] div[role="dialog"]::-webkit-scrollbar-thumb {
-        }
-        </style>
-        <span class='chat-dialog'></span>
-    """, unsafe_allow_html=True)
-    render_cair4_view()
 
 @st.dialog(f"Login:", width="large")
 def login_modal():
@@ -336,9 +317,6 @@ def initialize_float_training_manager():
         container.float(css)
 
 def render_sidebar_view(collections, model_options, direct=False, initial_chapter=None, initial_use_case=None):
-    import time
-    import re
-    from streamlit_option_menu import option_menu
 
     styles = {
         "container": {"max-height": "250px", "overflow-y": "auto", "padding": "0!important", "background-color": "#fafafa"},
