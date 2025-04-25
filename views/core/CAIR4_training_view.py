@@ -98,10 +98,10 @@ def render_multi_chat_tab():
 def render_training_view():
     selected_use_case = st.session_state.get("previous_use_case", None)
 
-    #if not selected_use_case or selected_use_case not in COLLECTIONS:
-    #    st.warning("⚠️ Kein gültiger Use Case ausgewählt.")
-    # return
-
+    if not selected_use_case or selected_use_case not in COLLECTIONS:
+        st.warning("⚠️ Kein gültiger Use Case ausgewählt.")
+        
+    training_content = st.session_state.selected_training
     st.session_state["selected_use_case"] = selected_use_case
     selected_training_key = COLLECTIONS[selected_use_case]["name"]
     training_content = TRAINING.get(selected_training_key, {})

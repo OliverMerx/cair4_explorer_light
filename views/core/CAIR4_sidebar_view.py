@@ -26,6 +26,7 @@ from views.core.CAIR4_settings_view import render_settings_view
 from views.core.CAIR4_metrics_view import render_metrics_view
 from views.core.CAIR4_modal_search_view import render_search_modal
 from views.core.CAIR4_training_view import render_training_view
+from views.core.CAIR4_cair4_view import render_cair4_view
 
 from streamlit_option_menu import option_menu  # Wichtig: muss installiert sein
 from streamlit_float import float_init, float_css_helper
@@ -129,8 +130,6 @@ def metrics_modal():
 
 def open_training_modal():
     use_case = st.session_state.get("selected_use_case", "Kein Use Case gewählt")
-
-    st.session_state.selected_training = use_case
     title = f"💡 CAIR4 Use Case Deep Dive: {use_case}"
 
     @st.dialog(title, width="large")
@@ -177,7 +176,6 @@ def search_modal():
     #render_search_view(COLLECTIONS)
     render_search_modal(st.session_state.get("collections", {}))
     #render_pdf_vectorizer_view()
-
 
 @st.dialog(f"Login:", width="large")
 def login_modal():
@@ -317,6 +315,9 @@ def initialize_float_training_manager():
         container.float(css)
 
 def render_sidebar_view(collections, model_options, direct=False, initial_chapter=None, initial_use_case=None):
+    import time
+    import re
+    from streamlit_option_menu import option_menu
 
     styles = {
         "container": {"max-height": "250px", "overflow-y": "auto", "padding": "0!important", "background-color": "#fafafa"},
@@ -411,14 +412,19 @@ def render_sidebar_view(collections, model_options, direct=False, initial_chapte
                 icons=["code"] * len(current_use_cases),
             )
 
-            if selected_use_case != current_use_case:
+            if st.session_state.get("sidebar_use_case_selection") != selected_use_case:
+                st.session_state["selected_use_case"] = selected_use_case
+                st.session_state["active_view"] = selected_use_case
+                st.session_state["sidebar_use_case_selection"] = selected_use_case # Verhindert endlos-Reruns
+                if direct:  # Nur nach einem Direktaufruf explizit neu rendern
+                    st.rerun()
+
+            if st.session_state.previous_use_case != selected_use_case:
+                st.session_state.selected_training = selected_use_case
+                st.session_state.previous_use_case = selected_use_case
+
+            if selected_use_case != current_use_case and not direct:
                 st.session_state.selected_use_case = selected_use_case
-                st.session_state.active_view = selected_use_case
-
-        st.session_state.selected_training = selected_use_case
-
-        if st.session_state.previous_use_case != selected_use_case:
-            st.session_state.previous_use_case = selected_use_case
 
     # === Model-UI + Floating Buttons ===
     render_model_selection()

@@ -24,6 +24,7 @@ Gib eine Nachricht ein und analysiere die Verarbeitungsschritte in verschiedenen
 from pylibs.numpy_lib import numpy as np
 from pylibs.pandas_lib import pandas as pd
 from pylibs.re_lib import re
+from pylibs.random_lib import random
 from pylibs.streamlit_lib import streamlit as st
 from deep_translator import GoogleTranslator
 
@@ -83,16 +84,44 @@ def preprocess_prompt(prompt):
         translated_tokens = translated_tokens[:len(tokens)]
 
     # 6️⃣ Farbcodierung (zur besseren Darstellung)
-    colors = ["🟢 Grün" if i % 3 == 0 else "🟡 Gelb" if i % 3 == 1 else "🔴 Rot" for i in range(len(tokens))]
+    emoji_palette = [
+        # 🟦 Quadrate (farbige Blöcke)
+        "🟥", "🟧", "🟨", "🟩", "🟦", "🟪", "⬛", "⬜", "🟫",
 
-    # 📊 DataFrame für die Analyse erstellen
+        # ❤️ Emotionen
+        "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "🤎",
+
+        # ✨ Licht & Energie
+        "🌕", "🌑", "🌗", "🌈", "⭐", "✨", "🔥", "⚡", "💥",
+
+        # 🔠 Symbole
+        "🔍", "📌", "🧠", "📎",
+
+        # ➕ Bonus-Runde: Stil + Technik
+        "🧬", "🪐", "💡", "🛰️", "🖥️", "🧮", "🗂️", "📊", "📚"
+    ]
+
+    # 🔀 Mischen & beschneiden auf Anzahl Tokens
+    def assign_unique_emojis(tokens):
+        unique_count = len(tokens)
+        used_palette = emoji_palette.copy()
+        random.shuffle(used_palette)
+        if unique_count <= len(used_palette):
+            return used_palette[:unique_count]
+        else:
+            # Wenn mehr Tokens als Symbole → auffüllen mit ⬜
+            return used_palette + ["⬜"] * (unique_count - len(used_palette))
+
+    # Ergebnis:
+    colors = assign_unique_emojis(tokens)
+    # DataFrame für die Analyse erstellen
     df_processing = pd.DataFrame({
         'Token': tokens,
         'Index': [token_indices[token] for token in tokens],
         'Vektor': [list(word_vectors[token_indices[token]]) for token in tokens],
         'Positionskodierung': [position_encoding[token] for token in tokens],
         'Englische Übersetzung': translated_tokens,
-        'Farbe': colors
+        'Symbol': colors
     })
 
     return df_processing
